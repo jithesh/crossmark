@@ -10,7 +10,7 @@
         </li>
         <li class="brown">
             <a href="/Terminals">
-                <i class="font-icon font-icon-filter"></i>
+                <i class="font-icon glyphicon glyphicon-tent"></i>
                 <span class="lbl">Terminals</span>
             </a>
         </li>
@@ -22,13 +22,13 @@
         </li>
         <li class="brown">
             <a href="/RfidReaders">
-                <i class="font-icon font-icon-home"></i>
+                <i class="font-icon glyphicon glyphicon-screenshot"></i>
                 <span class="lbl">RFID Reader</span>
             </a>
         </li>
         <li class="brown">
             <a href="/RfidTags">
-                <i class="font-icon font-icon-home"></i>
+                <i class="font-icon glyphicon glyphicon-tags"></i>
                 <span class="lbl">RFID Tags</span>
             </a>
         </li>

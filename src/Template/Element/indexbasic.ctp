@@ -17,6 +17,9 @@
         </div>
     </div>
 </header>
+
+		<?php echo $this->Flash->render(); ?>
+		<?php echo $this->Flash->render('auth'); ?>
 		
 <div class="container-fluid">
    <section class="box-typical">
@@ -29,7 +32,7 @@
 		</button>
     </div>
    	<table id="table" data-toggle="table"
-   	   class="table table-striped"
+   	   class="table table-striped table-hover"
        data-url="/<?php echo $this->request->params['controller'] ?>/ajaxData"
        data-query-params="queryParams"
        data-toolbar="#toolbar"
@@ -47,8 +50,7 @@
        data-pagination="true"
        data-id-field="id"
        data-page-list="[10, 25, 50, 100, ALL]"
-       data-show-footer="false"
- 	   data-height="300">
+       data-show-footer="false">
     <thead>
     <tr>
     	<th data-field="id" data-checkbox="true"></th>

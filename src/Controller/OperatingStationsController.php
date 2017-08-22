@@ -37,7 +37,7 @@ class OperatingStationsController extends AppController
      * @return \Cake\Http\Response|void
      */
     public function index()
-    {$this->Flash->success(__('Flash msg loaded.'));
+    {
         $this->paginate = [
             'contain' => ['Customers']
         ];
