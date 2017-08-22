@@ -74,7 +74,7 @@
 <?php $this->start('scriptBottom'); ?>
 
 <script>
-var modalname="zones";
+var modalname='<?php echo $this->name; ?>';
 // function queryParams() {
     // return {
         // type: 'owner',
@@ -88,7 +88,7 @@ function TableActions (value, row, index) {
             return [
             	'<a class="like" title="View" href="/<?php echo $this->request->params['controller'] ?>/view/'+row.rowid+'"><i class="fa fa-info-circle"></i></a> ',
                 '<a class="like" title="Edit" href="/<?php echo $this->request->params['controller'] ?>/edit/'+row.rowid+'"><i class="fa fa-pencil"></i></a> ',
-                '<form name="formdelete" id="formdelete' +row.rowid+ '" method="post" action="zones/delete/'+row.rowid+'" style="display:none;" >',
+                '<form name="formdelete" id="formdelete' +row.rowid+ '" method="post" action="'+modalname+'/delete/'+row.rowid+'" style="display:none;" >',
                 '<input type="hidden" name="_method" value="POST"></form>',
                	'<a href="#" onclick="sweet_confirmdelete(&quot;BagTrace&quot;,&quot;Are you sure you want to delete #'+row.name+' ?&quot; , function(){ document.getElementById(&quot;formdelete'+row.rowid+'&quot;).submit(); })',
                 '" class="like fa fa-times"></a>'
