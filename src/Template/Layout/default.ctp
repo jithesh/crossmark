@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+
 
     <!-- Page title -->
     <title>BAGTRACE</title>
@@ -22,10 +22,10 @@
 
     <!-- App styles -->
     <link href='/themes/startui/css/main.css' rel='stylesheet' type='text/css'>
-    
+
     <!-- <link rel="stylesheet" href="/themes/startui/css/main.css"> -->
     <style>
-  	
+
    .dataTables_filter {
           display: none;
      }
@@ -35,14 +35,14 @@
      .mptltoppad8{
      	padding-top: 8px;
      }
-    
+
     </style>
 </head>
-<body class="with-side-menu theme-rebecca-purple" >
+<body class="with-side-menu theme-qa" >
 
 <!-- Wrapper-->
 <!-- <div class="wrapper"> -->
-	
+
     <!-- Header-->
     <header class="site-header">
       <?= $this->element('/themes/startui/header'); ?>
@@ -56,7 +56,7 @@
 
     <!-- Main content-->
     <div class="page-content">
-	    
+
 
               <?= $this->fetch('content') ?>
 
@@ -64,7 +64,7 @@
     <!-- End main content-->
 	<!-- Control Sidebar-->
     <!-- Control Sidebar-->
-    
+
 <!-- </div> -->
 <!-- End wrapper-->
 
@@ -88,7 +88,7 @@
 <script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table.js"></script>
 <script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-export.min.js"></script>
 <script src="/themes/startui/js/lib/bootstrap-table/tableExport.min.js"></script>
-	
+
 <script src="/themes/startui/js/app.js"></script>
 
  <?= $this->fetch('scriptBottom') ?>

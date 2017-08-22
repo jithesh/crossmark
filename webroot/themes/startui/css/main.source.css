@@ -12236,6 +12236,43 @@ body {
     background-color: #282c38;
   }
 }
+.theme-qa .site-header {
+  background-color: #5c0931;
+  border-bottom-color: #5c0931;
+}
+.theme-qa .site-header .site-header-search.closed {
+  background: none;
+}
+.theme-qa .site-header .site-header-search.closed button {
+  color: #fff;
+}
+.theme-qa .site-header .site-header-search.closed:hover button {
+  color: #00a8ff;
+}
+.theme-qa .site-header .header-alarm.active:after {
+  border-color: #5c0931;
+  background-color: #fed832;
+}
+.theme-qa .site-header .header-alarm i {
+  color: #fff;
+}
+.theme-qa .site-header .dropdown.user-menu .dropdown-toggle:after {
+  color: #9fa7d8;
+}
+@media (min-width: 1055px) {
+  .theme-qa .site-header .dropdown.dropdown-typical .lbl {
+    color: #fff;
+  }
+  .theme-qa .site-header .dropdown.dropdown-typical a.dropdown-toggle:after {
+    color: #9fa7d8;
+  }
+  .theme-qa .site-header .dropdown.dropdown-typical a.dropdown-toggle .font-icon {
+    color: #fff;
+  }
+  .theme-qa .site-header .help-dropdown > button {
+    color: #fff;
+  }
+}
 .theme-rebecca-purple .site-header {
   background-color: #3e4eb2;
   border-bottom-color: #3e4eb2;
