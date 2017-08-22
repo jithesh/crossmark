@@ -58,8 +58,14 @@
     <!-- Main content-->
     <div class="page-content">
 
+<?php if($this->request->params['action']!="index"){ ?>
 
-              <?= $this->fetch('content') ?>
+		<?php echo $this->Flash->render(); ?>
+		<?php echo $this->Flash->render('auth'); ?>
+
+<?php } ?>
+		
+		<?= $this->fetch('content') ?>
 
     </div>
     <!-- End main content-->
