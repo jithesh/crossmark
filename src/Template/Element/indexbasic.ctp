@@ -1,3 +1,5 @@
+
+
 <style>
 	.fixed-table-header{display:none;}/*acoid table header displayed twice*/*/
 </style>
@@ -33,7 +35,6 @@
        data-toolbar="#toolbar"
        data-pagination="true"
        data-reorderable-columns="true"
-       data-reorderable-rows="true"
        data-search="true"
        data-show-refresh="true"
        data-show-toggle="true"
@@ -53,7 +54,7 @@
     	<th data-field="id" data-checkbox="true"></th>
     	<?php
                   for($i=0;$i<count($headers);$i++){
-	                  	echo "<th data-field='". strtolower($headers[$i]) ."'>" . $headers[$i] . "</th>";
+	                  	echo "<th data-field='". strtolower($headers[$i]) ."' data-sortable='true'>" . $headers[$i] . "</th>";
                   }
         ?>
     	<th data-formatter="TableActions">Actions</th>
@@ -75,6 +76,8 @@
 
 <script>
 var modalname='<?php echo $this->name; ?>';
+var $table = $('#table'),
+	  $remove = $('#remove');
 // function queryParams() {
     // return {
         // type: 'owner',
@@ -98,9 +101,33 @@ function TableActions (value, row, index) {
 
  $(document).ready(function(){
 
-
-// sweet_confirmdelete("BagTrace","Are you sure you want to delete " , function(){ console.log("success"); });
-               
+	function getIdSelections() {
+		return $.map($table.bootstrapTable('getSelections'), function (row) {
+			return row.id
+		});
+	}
+	
+	$table.on('check.bs.table uncheck.bs.table ' +
+		'check-all.bs.table uncheck-all.bs.table', function () {
+		$remove.prop('disabled', !$table.bootstrapTable('getSelections').length);
+		// save your data, here just save the current page
+		selections = getIdSelections();
+		// push or splice the selections if you want to save all data selections
+	});
+      
+    $remove.click(function () {
+		var ids = getIdSelections();console.log(ids);
+		sweet_confirmdelete("MayHaw","Are you sure you want to delete the selected " + modalname + " ?", function(){
+			$table.bootstrapTable('remove', {
+				field: 'id',
+				values: ids
+			});
+			$remove.prop('disabled', true);
+		
+			return true;
+		});		
+	});
+	         
 	$('#toolbar').find('select').change(function () {
 		$table.bootstrapTable('refreshOptions', {
 			exportDataType: $(this).val()

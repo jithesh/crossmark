@@ -27,7 +27,6 @@ class RfidReadersController extends AppController
 			$temparr['longitude']=$value['lon'];
 			$temparr['type']=$value['type'];
 			$temparr['model']=$value['model'];
-			$temparr['customer_id']=$value['customer_id'];
 			array_push($data,$temparr);
 		}
 		 

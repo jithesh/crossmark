@@ -15,11 +15,17 @@ class CustomersController extends AppController
 	public function ajaxData()
     {
     	$this->autoRender= False;
-		  
-		$data =array(array("id"=>1,"name"=>"a","status"=>"Active","description"=>"A Description"),
-                   array("id"=>2,"name"=>"b","status"=>"Inactive","description"=>"B Description")
-                  );
-		
+		$query = $this->OperatingStations->find('all')->toArray();
+        $data = array();
+        foreach($query as $value){
+        	$temparr=array();
+			$temparr['id']=$value['id'];
+			$temparr['rowid']=$value['id'];
+			$temparr['name']=$value['name'];
+			$temparr['contactnumber']=$value['contactno'];
+			array_push($data,$temparr);
+		}
+		 
 		echo json_encode($data);		
 	}
     /**
@@ -33,6 +39,9 @@ class CustomersController extends AppController
 		
         $this->set(compact('customers'));
         $this->set('_serialize', ['customers']);
+		
+		$headers =['Name','ContactNumber'];
+        $this->set('headers',$headers);
     }
 
     /**

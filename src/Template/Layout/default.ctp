@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/themes/startui/css/lib/font-awesome/font-awesome.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap/bootstrap.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/bootstrap-table.min.css"/>
+    <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/dragtable.css">
     <link rel="stylesheet" href="/themes/startui/css/separate/vendor/select2.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-sweetalert/sweetalert.css"/>
 
@@ -88,6 +89,10 @@
 <script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table.js"></script>
 <script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-export.min.js"></script>
 <script src="/themes/startui/js/lib/bootstrap-table/tableExport.min.js"></script>
+
+
+<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-reorder-columns.min.js"></script>
+<script src="/themes/startui/js/lib/bootstrap-table/jquery.dragtable.js"></script>
 	
 <script src="/themes/startui/js/app.js"></script>
 

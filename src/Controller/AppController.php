@@ -69,7 +69,7 @@ class AppController extends Controller
         $this->loadComponent('Auth', [
         	'authorize' => ['Controller'], // Added this line
         	'loginRedirect' => [
-            	'controller' => 'Customers',
+            	'controller' => 'OperatingStations',
             	'action' => 'index'
         	],
         	'logoutRedirect' => [
