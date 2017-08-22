@@ -1,0 +1,2674 @@
+2017-08-16 04:57:49 Notice: Notice (8): Undefined variable: actions in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 11]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 04:58:06 Notice: Notice (8): Undefined variable: actions in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 11]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 04:58:54 Notice: Notice (8): Undefined variable: actions in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 11]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 04:59:04 Notice: Notice (8): Undefined variable: actions in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 11]
+Request URL: /customers
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 04:59:39 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 24]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 04:59:39 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 249]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 249
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:06:40 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 38]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 38
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:06:40 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 263]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 263
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:06:55 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 35]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 35
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:06:55 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 260]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 260
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:07:29 Notice: Notice (8): Undefined variable: actions in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 11]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 22
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:07:45 Notice: Notice (8): Undefined variable: actions in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 11]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 22
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:08:14 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 24]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 22
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:08:14 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 249]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 249
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 22
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:08:28 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 24]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 22
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:08:28 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 249]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 249
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 22
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:17:14 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:17:14 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 264]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 264
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:18:42 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:18:42 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 264]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 264
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:19:34 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:19:34 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 264]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 264
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:20:32 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 40]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 40
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:20:32 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:21:10 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:21:10 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 264]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 264
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:21:32 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:21:32 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 264]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 264
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:22:27 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:22:27 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:32:53 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 05:32:53 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 06:26:16 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 06:26:16 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 06:26:47 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 06:26:47 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 06:28:05 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 06:28:05 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 07:08:40 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/customers/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 07:08:40 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/customers/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:07:31 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:07:31 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:11:21 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:11:21 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:12:41 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:12:41 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:13:41 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:13:41 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:13:53 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:13:53 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:16:48 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:16:48 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:17:02 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:17:02 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:18:03 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:18:03 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:18:23 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/customers
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:18:23 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/customers
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:19:26 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:19:26 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:21:52 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:21:52 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:22:26 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 08:22:26 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 11:08:32 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 11:08:32 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 11:24:26 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 11:24:26 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /customers
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 11:25:09 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 39]
+Request URL: /Customers
+Referer URL: http://localhost:8765/customers/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-16 11:25:09 Notice: Notice (8): Undefined variable: configs in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 265]
+Request URL: /Customers
+Referer URL: http://localhost:8765/customers/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 265
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-21 04:56:49 Debug: Something didn't work.
+2017-08-21 04:57:12 Debug: []
+2017-08-21 04:57:42 Debug: admin
+2017-08-21 04:57:58 Debug: Customers
+2017-08-21 04:58:18 Debug: Customers
+2017-08-21 04:58:43 Debug: Customers---
+2017-08-21 04:59:07 Debug: Customers---
+2017-08-21 05:01:09 Debug: Customers---
+2017-08-21 05:01:31 Debug: Customers---
+2017-08-21 05:01:35 Debug: Customers---
+2017-08-21 05:02:29 Debug: Customers---
+2017-08-21 05:02:46 Debug: Customers---
+2017-08-21 05:04:23 Debug: Customers---
+2017-08-21 05:06:15 Debug: Customers---
+2017-08-21 05:06:20 Debug: Customers---
+2017-08-21 05:07:11 Debug: Customers---
+2017-08-21 05:11:02 Debug: Customers---
+2017-08-21 05:11:48 Debug: Customers---
+2017-08-21 05:11:59 Debug: Customers---
+2017-08-21 05:12:11 Debug: Customers---
+2017-08-21 05:13:45 Debug: ---
+2017-08-21 05:14:02 Debug: Customers---
+2017-08-21 11:50:13 Notice: Notice (8): Undefined variable: customers in [/Users/varunprathap/bagtrace/src/Template/OperatingStations/view.ctp, line 29]
+Request URL: /OperatingStations/view/11648e8f-f19e-4494-9638-72c0163b62fb
+Referer URL: http://localhost:8765/OperatingStations
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/OperatingStations/view.ctp, line 29
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 03:35:34 Notice: Notice (8): Undefined variable: headers in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 55]
+Request URL: /customers
+Referer URL: http://localhost:8765/?redirect=%2FOperatingStations
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 55
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Customers/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 04:04:34 Notice: Notice (8): Undefined variable: headers in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 55]
+Request URL: /Terminals
+Referer URL: http://localhost:8765/OperatingStations
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 55
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Terminals/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 04:06:37 Notice: Notice (8): Undefined variable: headers in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 55]
+Request URL: /Zones
+Referer URL: http://localhost:8765/Terminals
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 55
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Zones/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 04:08:42 Notice: Notice (8): Undefined variable: headers in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 55]
+Request URL: /Zones
+Referer URL: http://localhost:8765/Terminals
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 55
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Zones/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 04:08:48 Notice: Notice (8): Undefined variable: headers in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 55]
+Request URL: /RfidReaders
+Referer URL: http://localhost:8765/Zones
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 55
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/RfidReaders/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 04:09:10 Notice: Notice (8): Undefined variable: headers in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 55]
+Request URL: /Zones
+Referer URL: http://localhost:8765/Terminals
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 55
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/Zones/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 04:11:10 Notice: Notice (8): Undefined variable: headers in [/Users/varunprathap/bagtrace/src/Template/Element/indexbasic.ctp, line 55]
+Request URL: /RfidReaders
+Referer URL: http://localhost:8765/Zones
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Element/indexbasic.ctp, line 55
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1372
+Cake\View\View::element() - CORE/src/View/View.php, line 513
+include - APP/Template/RfidReaders/index.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 05:08:27 Notice: Notice (8): Undefined variable: operatingStations in [/Users/varunprathap/bagtrace/src/Template/Terminals/view.ctp, line 29]
+Request URL: /Terminals/view/240dd746-0cab-443f-962c-5c37237aefad
+Referer URL: http://localhost:8765/terminals
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Terminals/view.ctp, line 29
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 05:09:26 Notice: Notice (8): Undefined variable: operatingStation in [/Users/varunprathap/bagtrace/src/Template/Terminals/edit.ctp, line 19]
+Request URL: /terminals/edit/240dd746-0cab-443f-962c-5c37237aefad
+Referer URL: http://localhost:8765/Terminals/view/240dd746-0cab-443f-962c-5c37237aefad
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Terminals/edit.ctp, line 19
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-08-22 05:09:26 Notice: Notice (8): Undefined variable: customers in [/Users/varunprathap/bagtrace/src/Template/Terminals/edit.ctp, line 29]
+Request URL: /terminals/edit/240dd746-0cab-443f-962c-5c37237aefad
+Referer URL: http://localhost:8765/Terminals/view/240dd746-0cab-443f-962c-5c37237aefad
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - APP/Template/Terminals/edit.ctp, line 29
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1025
+Cake\View\View::_render() - CORE/src/View/View.php, line 986
+Cake\View\View::render() - CORE/src/View/View.php, line 610
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 80
+[main] - ROOT/webroot/index.php, line 37
+
+
+
