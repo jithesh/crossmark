@@ -25,7 +25,6 @@ class ZonesController extends AppController
 			$temparr['description']=$value['description'];
 			$temparr['latitude']=$value['lat'];
 			$temparr['longitude']=$value['lon'];
-			$temparr['customer_id']=$value['customer_id'];
 			array_push($data,$temparr);
 		}
 		 
