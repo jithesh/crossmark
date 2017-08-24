@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/themes/startui/css/separate/vendor/select2.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-sweetalert/sweetalert.css"/>
 
+	<link rel="stylesheet" href="/ol/ol.css">
     <!-- App styles -->
     <link href='/themes/startui/css/main.css' rel='stylesheet' type='text/css'>
 
@@ -99,13 +100,16 @@
 
 <script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-reorder-columns.min.js"></script>
 <script src="/themes/startui/js/lib/bootstrap-table/jquery.dragtable.js"></script>
-
-<script src="/themes/startui/js/app.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<?php echo $this->Html->script('/ol/ol'); ?>
 
  <?= $this->fetch('scriptBottom') ?>
+ 
+ <script src="/themes/startui/js/app.js"></script>
+ 
 <script type="text/javascript">
 $(document).ready(function(){
-	$("li").removeClass("opened");
+	// $("li").removeClass("opened");
 	var a = $('a[href="/<?php echo $this->request->params['controller'] ?>"]');
 	if (!a.parent().hasClass('opened')){ a.parent().addClass('opened'); }
  	if (!a.find('.font-icon').hasClass('active')){ a.find('.font-icon').addClass('active'); }
