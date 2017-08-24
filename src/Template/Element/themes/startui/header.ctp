@@ -198,7 +198,7 @@
                 </div><!--.site-header-shown-->
 
                 <div class="mobile-menu-right-overlay"></div>
-                <div class="site-header-collapsed">
+                <!-- <div class="site-header-collapsed">
                     <div class="site-header-collapsed-in">
                         <div class="dropdown dropdown-typical">
                             <a class="dropdown-toggle" id="dd-header-sales" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -372,7 +372,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--.help-dropdown-->
+                        </div>//help-dropdown
                         <div class="site-header-search-container">
                             <form class="site-header-search closed">
                                 <input type="text" placeholder="Search"/>
@@ -382,8 +382,8 @@
                                 <div class="overlay"></div>
                             </form>
                         </div>
-                    </div><!--.site-header-collapsed-in-->
-                </div><!--.site-header-collapsed-->
+                    </div>//.site-header-collapsed-in
+                </div>//.site-header-collapsed -->
             </div><!--site-header-content-in-->
         </div><!--.site-header-content-->
     </div><!--.container-fluid-->

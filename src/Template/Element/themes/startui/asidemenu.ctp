@@ -1,8 +1,19 @@
 <div class="mobile-menu-left-overlay"></div>
 <nav class="side-menu">
     <ul class="side-menu-list">
-        
-        <li class="brown opened">
+        <li class="brown">
+            <a href="/Dashboard">
+                <i class="font-icon font-icon-dashboard"></i>
+                <span class="lbl">Dashboard</span>
+            </a>
+        </li>
+        <li class="brown">
+            <a href="/Map">
+                <i class="font-icon fa fa-map"></i>
+                <span class="lbl">Map</span>
+            </a>
+        </li>
+        <li class="brown">
             <a href="/OperatingStations">
                 <i class="font-icon font-icon-home"></i>
                 <span class="lbl">Operating Stations</span>
