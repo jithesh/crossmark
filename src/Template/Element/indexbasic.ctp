@@ -66,8 +66,7 @@
     </thead>
 </table>
 
-
-			</section>
+</section>
 </div>
 
 
@@ -113,27 +112,44 @@ function TableActions (value, row, index) {
 
  $(document).ready(function(){
 
-	function getIdSelections() {
-		return $.map($table.bootstrapTable('getSelections'), function (row) {
-			return row.id
-		});
-	}
-	
-	$table.on('check.bs.table uncheck.bs.table ' +
-		'check-all.bs.table uncheck-all.bs.table', function () {
+	$table.on('check.bs.table uncheck.bs.table ' + 'check-all.bs.table uncheck-all.bs.table', function () {
 		$remove.prop('disabled', !$table.bootstrapTable('getSelections').length);
 		// save your data, here just save the current page
-		selections = getIdSelections();
+		// selections = getIdSelections();
 		// push or splice the selections if you want to save all data selections
 	});
       
     $remove.click(function () {
-		var ids = getIdSelections();console.log(ids);
+		// var ids = getIdSelections();console.log(ids);
 		sweet_confirmdelete("MayHaw","Are you sure you want to delete the selected " + modalname + " ?", function(){
-			$table.bootstrapTable('remove', {
-				field: 'id',
-				values: ids
-			});
+			
+			$('input[name="btSelectItem"]').each(function (){
+		    	var sThisVal = (this.checked ? $(this).val() : "");
+		    	var value=$(this).attr("value");
+		    	if(sThisVal){
+		    		$.ajax({
+        				type: "POST",
+        				url: '/<?php echo $this->request->params['controller'] ?>/deleteSelected',
+        				data: 'value='+value,
+        				success : function(data) {$table.bootstrapTable('refresh');
+        					if(data=="success"){
+        						console.log("success");
+    						}else{
+    							sweet_alert("BagTrace","Couldn't delete the selected rows.Please try again.");
+								return false;
+    						}
+    					},
+        				error : function(data) {
+            				sweet_alert("BagTrace","Couldn't delete the selected rows.Please try again later.");
+            				return false;
+        				}
+    				});
+		    	}
+	   		});
+			// $table.bootstrapTable('remove', {
+				// field: 'id',
+				// values: ids
+			// });
 			$remove.prop('disabled', true);
 		
 			return true;

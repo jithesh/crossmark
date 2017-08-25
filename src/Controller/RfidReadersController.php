@@ -136,4 +136,19 @@ class RfidReadersController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+	public function deleteSelected(){
+    	
+		if($this->request->is('ajax')) {
+				
+			$this->autoRender=false;
+			$rfidTag = $this->RfidReaders->get($this->request->data["value"]);
+			if ($this->RfidReaders->delete($rfidTag)) {
+				$this->response->body("success");
+	    		return $this->response;
+			}else{
+				$this->response->body("error");
+	    		return $this->response;
+			}
+		}			
+	}
 }

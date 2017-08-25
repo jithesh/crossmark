@@ -107,7 +107,10 @@ $(document).ready(function(){
  	var actionname = '<?php echo $this->request->params['action'] ?>';
 	if(actionname=="view"){ $("input").prop('disabled', true);$("select").prop('disabled', true); }
 });
-
+function sweet_alert(titl,msg, callback_success, callback_cancel) {
+    var d = swal(titl,msg);
+    return d;
+}
 function sweet_confirmdelete(titl,msg, callback_success, callback_cancel) {
   var d = swal({
   		title: titl,
