@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="/ol/ol.css">
+    
+<?php echo $this->Html->script('/ol/ol'); ?>
+
 <div class="container-fluid">
 	<header class="section-header">
 		<div class="tbl">

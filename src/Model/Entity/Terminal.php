@@ -19,6 +19,7 @@ use Cake\ORM\Entity;
  * @property string $createdip
  * @property string $modiifedip
  * @property string $operating_station_id
+ * @property string $customer_id
  *
  * @property \App\Model\Entity\OperatingStation $operating_station
  * @property \App\Model\Entity\Zone[] $zones

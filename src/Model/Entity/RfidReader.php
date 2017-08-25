@@ -20,6 +20,7 @@ use Cake\ORM\Entity;
  * @property string $modiifedip
  * @property string $type
  * @property string $model
+ * @property string $customer_id
  *
  * @property \App\Model\Entity\Zone $zone
  */

@@ -19,6 +19,7 @@ use Cake\ORM\Entity;
  * @property string $createdip
  * @property string $modiifedip
  * @property string $terminal_id
+ * @property string $customer_id
  *
  * @property \App\Model\Entity\Terminal $terminal
  * @property \App\Model\Entity\RfidReader[] $rfid_readers
