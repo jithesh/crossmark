@@ -134,4 +134,19 @@ class ZonesController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+	public function deleteSelected(){
+    	
+		if($this->request->is('ajax')) {
+				
+			$this->autoRender=false;
+			$rfidTag = $this->Zones->get($this->request->data["value"]);
+			if ($this->Zones->delete($rfidTag)) {
+				$this->response->body("success");
+	    		return $this->response;
+			}else{
+				$this->response->body("error");
+	    		return $this->response;
+			}
+		}			
+	}
 }
