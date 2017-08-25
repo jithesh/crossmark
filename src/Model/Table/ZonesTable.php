@@ -10,6 +10,7 @@ use Cake\Validation\Validator;
  * Zones Model
  *
  * @property \App\Model\Table\TerminalsTable|\Cake\ORM\Association\BelongsTo $Terminals
+ * @property |\Cake\ORM\Association\BelongsTo $Customers
  * @property \App\Model\Table\RfidReadersTable|\Cake\ORM\Association\HasMany $RfidReaders
  *
  * @method \App\Model\Entity\Zone get($primaryKey, $options = [])
@@ -43,6 +44,9 @@ class ZonesTable extends Table
 
         $this->belongsTo('Terminals', [
             'foreignKey' => 'terminal_id'
+        ]);
+        $this->belongsTo('Customers', [
+            'foreignKey' => 'customer_id'
         ]);
         $this->hasMany('RfidReaders', [
             'foreignKey' => 'zone_id'
@@ -103,6 +107,7 @@ class ZonesTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['terminal_id'], 'Terminals'));
+        $rules->add($rules->existsIn(['customer_id'], 'Customers'));
 
         return $rules;
     }

@@ -10,6 +10,8 @@ use Cake\Validation\Validator;
  * Terminals Model
  *
  * @property \App\Model\Table\OperatingStationsTable|\Cake\ORM\Association\BelongsTo $OperatingStations
+ * @property |\Cake\ORM\Association\BelongsTo $Customers
+ * @property |\Cake\ORM\Association\HasMany $RfidTags
  * @property \App\Model\Table\ZonesTable|\Cake\ORM\Association\HasMany $Zones
  *
  * @method \App\Model\Entity\Terminal get($primaryKey, $options = [])
@@ -43,6 +45,12 @@ class TerminalsTable extends Table
 
         $this->belongsTo('OperatingStations', [
             'foreignKey' => 'operating_station_id'
+        ]);
+        $this->belongsTo('Customers', [
+            'foreignKey' => 'customer_id'
+        ]);
+        $this->hasMany('RfidTags', [
+            'foreignKey' => 'terminal_id'
         ]);
         $this->hasMany('Zones', [
             'foreignKey' => 'terminal_id'
@@ -103,6 +111,7 @@ class TerminalsTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['operating_station_id'], 'OperatingStations'));
+        $rules->add($rules->existsIn(['customer_id'], 'Customers'));
 
         return $rules;
     }

@@ -10,6 +10,8 @@ use Cake\Validation\Validator;
  * RfidTags Model
  *
  * @property \App\Model\Table\TerminalsTable|\Cake\ORM\Association\BelongsTo $Terminals
+ * @property \App\Model\Table\UsersTable|\Cake\ORM\Association\BelongsTo $Users
+ * @property |\Cake\ORM\Association\BelongsTo $Customers
  *
  * @method \App\Model\Entity\RfidTag get($primaryKey, $options = [])
  * @method \App\Model\Entity\RfidTag newEntity($data = null, array $options = [])
@@ -42,6 +44,12 @@ class RfidTagsTable extends Table
 
         $this->belongsTo('Terminals', [
             'foreignKey' => 'terminal_id'
+        ]);
+        $this->belongsTo('Users', [
+            'foreignKey' => 'registrationuser_id'
+        ]);
+        $this->belongsTo('Customers', [
+            'foreignKey' => 'customer_id'
         ]);
     }
 
@@ -89,6 +97,18 @@ class RfidTagsTable extends Table
         $validator
             ->allowEmpty('type');
 
+        $validator
+            ->boolean('activated')
+            ->allowEmpty('activated');
+
+        $validator
+            ->boolean('archived')
+            ->allowEmpty('archived');
+
+        $validator
+            ->dateTime('registrationtime')
+            ->allowEmpty('registrationtime');
+
         return $validator;
     }
 
@@ -102,6 +122,8 @@ class RfidTagsTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['terminal_id'], 'Terminals'));
+        $rules->add($rules->existsIn(['registrationuser_id'], 'Users'));
+        $rules->add($rules->existsIn(['customer_id'], 'Customers'));
 
         return $rules;
     }

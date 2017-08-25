@@ -1,4 +1,5 @@
-
+<link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/bootstrap-table.min.css"/>
+<link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/dragtable.css">
 
 <style>
 	.fixed-table-header{display:none;}/*acoid table header displayed twice*/*/
@@ -75,6 +76,15 @@
 
 
 <?php $this->start('scriptBottom'); ?>
+
+
+<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table.js"></script>
+<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-export.min.js"></script>
+<script src="/themes/startui/js/lib/bootstrap-table/tableExport.min.js"></script>
+
+
+<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-reorder-columns.min.js"></script>
+<script src="/themes/startui/js/lib/bootstrap-table/jquery.dragtable.js"></script>
 
 <script>
 var modalname='<?php echo $this->name; ?>';
