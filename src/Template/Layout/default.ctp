@@ -16,13 +16,10 @@
     <link rel="stylesheet" href="/themes/startui/css/lib/jqueryui/jquery-ui.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/font-awesome/font-awesome.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/bootstrap-table.min.css"/>
-    <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/dragtable.css">
     <link rel="stylesheet" href="/themes/startui/css/separate/vendor/select2.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-sweetalert/sweetalert.css"/>
 
-	<link rel="stylesheet" href="/ol/ol.css">
-    <!-- App styles -->
+	<!-- App styles -->
     <link href='/themes/startui/css/main.css' rel='stylesheet' type='text/css'>
 
     <!-- <link rel="stylesheet" href="/themes/startui/css/main.css"> -->
@@ -37,6 +34,7 @@
      .mptltoppad8{
      	padding-top: 8px;
      }
+     .mptlmargintop48{ margin-top:48px; }
 
     </style>
 </head>
@@ -81,7 +79,7 @@
 <script src="/themes/startui/js/lib/jquery/jquery.min.js"></script>
 <script src="/themes/startui/js/lib/tether/tether.min.js"></script>
 <script src="/themes/startui/js/lib/bootstrap/bootstrap.min.js"></script>
-<script src="/themes/startui/js/lib/datatables-net/datatables.min.js"></script>
+<!-- <script src="/themes/startui/js/lib/datatables-net/datatables.min.js"></script> -->
 <script src="/themes/startui/js/lib/select2/select2.js"></script>
 <script src="/themes/startui/js/plugins.js"></script>
 
@@ -93,15 +91,7 @@
 <!-- App scripts -->
 
 
-<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table.js"></script>
-<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-export.min.js"></script>
-<script src="/themes/startui/js/lib/bootstrap-table/tableExport.min.js"></script>
 
-
-<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-reorder-columns.min.js"></script>
-<script src="/themes/startui/js/lib/bootstrap-table/jquery.dragtable.js"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<?php echo $this->Html->script('/ol/ol'); ?>
 
  <?= $this->fetch('scriptBottom') ?>
  
@@ -109,10 +99,13 @@
  
 <script type="text/javascript">
 $(document).ready(function(){
-	// $("li").removeClass("opened");
+	// highlight menu if particular controller loaded
 	var a = $('a[href="/<?php echo $this->request->params['controller'] ?>"]');
 	if (!a.parent().hasClass('opened')){ a.parent().addClass('opened'); }
  	if (!a.find('.font-icon').hasClass('active')){ a.find('.font-icon').addClass('active'); }
+ 	//disable elements in view
+ 	var actionname = '<?php echo $this->request->params['action'] ?>';
+	if(actionname=="view"){ $("input").prop('disabled', true);$("select").prop('disabled', true); }
 });
 
 function sweet_confirmdelete(titl,msg, callback_success, callback_cancel) {

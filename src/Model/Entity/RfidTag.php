@@ -20,8 +20,14 @@ use Cake\ORM\Entity;
  * @property string $modiifedip
  * @property string $make
  * @property string $type
+ * @property bool $activated
+ * @property bool $archived
+ * @property \Cake\I18n\FrozenTime $registrationtime
+ * @property string $registrationuser_id
+ * @property string $customer_id
  *
  * @property \App\Model\Entity\Terminal $terminal
+ * @property \App\Model\Entity\User $user
  */
 class RfidTag extends Entity
 {

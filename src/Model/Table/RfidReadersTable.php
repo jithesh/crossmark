@@ -10,6 +10,7 @@ use Cake\Validation\Validator;
  * RfidReaders Model
  *
  * @property \App\Model\Table\ZonesTable|\Cake\ORM\Association\BelongsTo $Zones
+ * @property |\Cake\ORM\Association\BelongsTo $Customers
  *
  * @method \App\Model\Entity\RfidReader get($primaryKey, $options = [])
  * @method \App\Model\Entity\RfidReader newEntity($data = null, array $options = [])
@@ -42,6 +43,9 @@ class RfidReadersTable extends Table
 
         $this->belongsTo('Zones', [
             'foreignKey' => 'zone_id'
+        ]);
+        $this->belongsTo('Customers', [
+            'foreignKey' => 'customer_id'
         ]);
     }
 
@@ -102,6 +106,7 @@ class RfidReadersTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['zone_id'], 'Zones'));
+        $rules->add($rules->existsIn(['customer_id'], 'Customers'));
 
         return $rules;
     }

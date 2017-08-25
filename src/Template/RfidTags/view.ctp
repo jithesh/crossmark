@@ -9,7 +9,7 @@
 				<div class="tbl-cell">
 					<h3>RFID Tag</h3>
 					<ol class="breadcrumb breadcrumb-simple">
-						<li><a href="/RfidReaders">RFID Tags</a></li>
+						<li><a href="/RfidTags">RFID Tags</a></li>
 						<li>View</li>
 					</ol>
 				</div>
@@ -27,6 +27,8 @@
             echo $this->Form->control('lon');
             echo $this->Form->control('make');
             echo $this->Form->control('type');
+			echo $this->Form->control('activated');
+			echo $this->Form->control('archived');
             echo $this->Form->control('terminal_id', ['options' => $terminals, 'empty' => true]);
             
         ?>

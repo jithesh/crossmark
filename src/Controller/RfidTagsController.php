@@ -23,6 +23,8 @@ class RfidTagsController extends AppController
 			$temparr['rowid']=$value['id'];
 			$temparr['name']=$value['name'];
 			$temparr['description']=$value['description'];
+			$temparr['activated']=$value['activated'];
+			$temparr['archived']=$value['archived'];
 			$temparr['latitude']=$value['lat'];
 			$temparr['longitude']=$value['lon'];
 			$temparr['type']=$value['type'];
@@ -47,8 +49,8 @@ class RfidTagsController extends AppController
         $this->set(compact('rfidTags'));
         $this->set('_serialize', ['rfidTags']);
 		
-		$headers =['Name','Description','Type','Make','Latitude','Longitude'];
-        $this->set('headers',$headers);	
+		$headers =['Name','Description','Activated','Archived','Type','Make','Latitude','Longitude'];
+        $this->set('headers',$headers);
     }
 
     /**

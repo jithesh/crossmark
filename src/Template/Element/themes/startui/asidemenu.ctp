@@ -7,12 +7,12 @@
                 <span class="lbl">Dashboard</span>
             </a>
         </li>
-        <li class="brown">
+        <!-- <li class="brown">
             <a href="/Map">
                 <i class="font-icon fa fa-map"></i>
                 <span class="lbl">Map</span>
             </a>
-        </li>
+        </li> -->
         <li class="brown">
             <a href="/OperatingStations">
                 <i class="font-icon font-icon-home"></i>
