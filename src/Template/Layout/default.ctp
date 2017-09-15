@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-
     <!-- Page title -->
     <title>BAGTRACE</title>
 
@@ -25,15 +24,9 @@
     <!-- <link rel="stylesheet" href="/themes/startui/css/main.css"> -->
     <style>
 
-   .dataTables_filter {
-          display: none;
-     }
-     .mptltoppad10{
-     	padding-top: 10px;
-     }
-     .mptltoppad8{
-     	padding-top: 8px;
-     }
+   	 .dataTables_filter { display: none; }
+     .mptltoppad10{ padding-top: 10px; }
+     .mptltoppad8{ padding-top: 8px; }
      .mptlmargintop48{ margin-top:48px; }
 
     </style>
@@ -42,7 +35,7 @@
 
 <!-- Wrapper-->
 <!-- <div class="wrapper"> -->
-
+<?php if($this->request->params['action']!="edit"){ ?>
     <!-- Header-->
     <header class="site-header">
       <?= $this->element('/themes/startui/header'); ?>
@@ -56,27 +49,23 @@
 
     <!-- Main content-->
     <div class="page-content">
+		<!-- include flash here if it is not the index....For index,included in indexbasic-->		
+		<?php if($this->request->params['action']!="index"){ ?>
 
-<?php if($this->request->params['action']!="index"){ ?>
+			<?php echo $this->Flash->render(); ?>
+			<?php echo $this->Flash->render('auth'); ?>
 
-		<?php echo $this->Flash->render(); ?>
-		<?php echo $this->Flash->render('auth'); ?>
-
-<?php } ?>
-		
+		<?php } ?>
+<?php } ?>		
 		<?= $this->fetch('content') ?>
 
     </div>
     <!-- End main content-->
-	<!-- Control Sidebar-->
-    <!-- Control Sidebar-->
 
-<!-- </div> -->
-<!-- End wrapper-->
 
 <!-- Vendor scripts -->
 <!-- <script src="/themes/startui/vendor/pacejs/pace.min.js"></script> -->
-<script src="/themes/startui/js/lib/jquery/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="/themes/startui/js/lib/tether/tether.min.js"></script>
 <script src="/themes/startui/js/lib/bootstrap/bootstrap.min.js"></script>
 <!-- <script src="/themes/startui/js/lib/datatables-net/datatables.min.js"></script> -->

@@ -139,8 +139,8 @@ class ZonesController extends AppController
 		if($this->request->is('ajax')) {
 				
 			$this->autoRender=false;
-			$rfidTag = $this->Zones->get($this->request->data["value"]);
-			if ($this->Zones->delete($rfidTag)) {
+			$keyVal = $this->Zones->get($this->request->data["value"]);
+			if ($this->Zones->delete($keyVal)) {
 				$this->response->body("success");
 	    		return $this->response;
 			}else{
