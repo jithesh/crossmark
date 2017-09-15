@@ -140,8 +140,8 @@ class OperatingStationsController extends AppController
 		if($this->request->is('ajax')) {
 				
 			$this->autoRender=false;
-			$rfidTag = $this->OperatingStations->get($this->request->data["value"]);
-			if ($this->OperatingStations->delete($rfidTag)) {
+			$keyVal = $this->OperatingStations->get($this->request->data["value"]);
+			if ($this->OperatingStations->delete($keyVal)) {
 				$this->response->body("success");
 	    		return $this->response;
 			}else{

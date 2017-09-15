@@ -141,8 +141,8 @@ class RfidReadersController extends AppController
 		if($this->request->is('ajax')) {
 				
 			$this->autoRender=false;
-			$rfidTag = $this->RfidReaders->get($this->request->data["value"]);
-			if ($this->RfidReaders->delete($rfidTag)) {
+			$keyVal = $this->RfidReaders->get($this->request->data["value"]);
+			if ($this->RfidReaders->delete($keyVal)) {
 				$this->response->body("success");
 	    		return $this->response;
 			}else{

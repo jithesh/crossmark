@@ -98,7 +98,7 @@ var $table = $('#table'),
         // page: 1
     // };
 // }
-function TableActions (value, row, index) {
+	function TableActions (value, row, index) {
             return [
             	'<a class="like" title="View" href="/<?php echo $this->request->params['controller'] ?>/view/'+row.rowid+'"><i class="fa fa-info-circle"></i></a> ',
                 '<a class="like" title="Edit" href="/<?php echo $this->request->params['controller'] ?>/edit/'+row.rowid+'"><i class="fa fa-pencil"></i></a> ',
@@ -107,20 +107,25 @@ function TableActions (value, row, index) {
                	'<a href="#" onclick="sweet_confirmdelete(&quot;BagTrace&quot;,&quot;Are you sure you want to delete #'+row.name+' ?&quot; , function(){ document.getElementById(&quot;formdelete'+row.rowid+'&quot;).submit(); })',
                 '" class="like fa fa-times"></a>'
             ].join('');
-        }
-
+    }
+        
+  function detailFormatter(index, row, element){
+	var html = [];
+	html.push('<iframe id="if1" width="100%" height=" 154" style="visibility:visible" src="/<?php echo $this->request->params['controller'] ?>/edit/'+row.rowid+'"></iframe>');
+	// $("#mptlcontent").attr("src","http://www.google.com");
+        // $.each(row, function (key, value) {
+            // html.push('<p><b>' + key + ':</b> ' + value + '</p>');
+        // });
+        return html.join('');
+  }
 
  $(document).ready(function(){
-
+  
 	$table.on('check.bs.table uncheck.bs.table ' + 'check-all.bs.table uncheck-all.bs.table', function () {
 		$remove.prop('disabled', !$table.bootstrapTable('getSelections').length);
-		// save your data, here just save the current page
-		// selections = getIdSelections();
-		// push or splice the selections if you want to save all data selections
 	});
       
-    $remove.click(function () {
-		// var ids = getIdSelections();console.log(ids);
+   $remove.on('click', function(){
 		sweet_confirmdelete("MayHaw","Are you sure you want to delete the selected " + modalname + " ?", function(){
 			
 			$('input[name="btSelectItem"]').each(function (){
@@ -132,9 +137,7 @@ function TableActions (value, row, index) {
         				url: '/<?php echo $this->request->params['controller'] ?>/deleteSelected',
         				data: 'value='+value,
         				success : function(data) {$table.bootstrapTable('refresh');
-        					if(data=="success"){
-        						console.log("success");
-    						}else{
+        					if(data!="success"){
     							sweet_alert("BagTrace","Couldn't delete the selected rows.Please try again.");
 								return false;
     						}
@@ -150,7 +153,7 @@ function TableActions (value, row, index) {
 				// field: 'id',
 				// values: ids
 			// });
-			$remove.prop('disabled', true);
+			// $remove.prop('disabled', true);
 		
 			return true;
 		});		

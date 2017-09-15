@@ -106,9 +106,9 @@ class TerminalsController extends AppController
             if ($this->Terminals->save($terminal)) {
                 $this->Flash->success(__('The terminal has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect($this->referer());
             }
-            $this->Flash->error(__('The terminal could not be saved. Please, try again.'));
+            // $this->Flash->error(__('The terminal could not be saved. Please, try again.'));
         }
         $operatingStations = $this->Terminals->OperatingStations->find('list', ['limit' => 200]);
         $this->set(compact('terminal', 'operatingStations'));
@@ -139,8 +139,8 @@ class TerminalsController extends AppController
 		if($this->request->is('ajax')) {
 				
 			$this->autoRender=false;
-			$rfidTag = $this->Terminals->get($this->request->data["value"]);
-			if ($this->Terminals->delete($rfidTag)) {
+			$keyVal = $this->Terminals->get($this->request->data["value"]);
+			if ($this->Terminals->delete($keyVal)) {
 				$this->response->body("success");
 	    		return $this->response;
 			}else{
