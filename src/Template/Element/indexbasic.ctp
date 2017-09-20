@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/dragtable.css">
 
 <style>
-	.fixed-table-header{display:none;}/*acoid table header displayed twice*/*/
+	.fixed-table-header{display:none;}/*acoid table header displayed twice*/
 </style>
 <header class="page-content-header">
 	<div class="container-fluid">
@@ -60,7 +60,7 @@
 	                  	echo "<th data-field='". strtolower($headers[$i]) ."' data-sortable='true'>" . $headers[$i] . "</th>";
                   }
         ?>
-    	<th data-formatter="TableActions">Actions</th>
+    	<!-- <th data-formatter="TableActions">Actions</th> -->
         
     </tr>
     </thead>
@@ -85,7 +85,7 @@
 <script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-reorder-columns.min.js"></script>
 <script src="/themes/startui/js/lib/bootstrap-table/jquery.dragtable.js"></script>
 
-<script>
+<script type="text/javascript">
 var modalname='<?php echo $this->name; ?>';
 var $table = $('#table'),
 	  $remove = $('#remove');
@@ -111,14 +111,13 @@ var $table = $('#table'),
         
   function detailFormatter(index, row, element){
 	var html = [];
-	html.push('<iframe id="if1" width="100%" height=" 154" style="visibility:visible" src="/<?php echo $this->request->params['controller'] ?>/edit/'+row.rowid+'"></iframe>');
-	// $("#mptlcontent").attr("src","http://www.google.com");
+	html.push('<iframe id="if1" width="100%" height="265" style="visibility:visible" target="_parent" src="/<?php echo $this->request->params['controller'] ?>/edit/'+row.rowid+'"></iframe>');
         // $.each(row, function (key, value) {
             // html.push('<p><b>' + key + ':</b> ' + value + '</p>');
         // });
         return html.join('');
   }
-
+	
  $(document).ready(function(){
   
 	$table.on('check.bs.table uncheck.bs.table ' + 'check-all.bs.table uncheck-all.bs.table', function () {
