@@ -106,7 +106,8 @@ class ZonesController extends AppController
             if ($this->Zones->save($zone)) {
                 $this->Flash->success(__('The zone has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                echo '<script type="text/javascript">window.top.location.href = window.top.location.href;</script>';
+                //return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The zone could not be saved. Please, try again.'));
         }
