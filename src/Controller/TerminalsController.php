@@ -106,7 +106,10 @@ class TerminalsController extends AppController
             if ($this->Terminals->save($terminal)) {
                 $this->Flash->success(__('The terminal has been saved.'));
 
-                return $this->redirect($this->referer());
+                // return $this->redirect($this->referer());
+                // return $this->redirect(['action' => 'index']);
+                echo '<script type="text/javascript">window.top.location.href = window.top.location.href;</script>';
+                
             }
             // $this->Flash->error(__('The terminal could not be saved. Please, try again.'));
         }

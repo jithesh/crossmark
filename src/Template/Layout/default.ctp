@@ -65,7 +65,7 @@
 
 <!-- Vendor scripts -->
 <!-- <script src="/themes/startui/vendor/pacejs/pace.min.js"></script> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/themes/startui/js/lib/jquery/jquery.min.js"></script>
 <script src="/themes/startui/js/lib/tether/tether.min.js"></script>
 <script src="/themes/startui/js/lib/bootstrap/bootstrap.min.js"></script>
 <!-- <script src="/themes/startui/js/lib/datatables-net/datatables.min.js"></script> -->

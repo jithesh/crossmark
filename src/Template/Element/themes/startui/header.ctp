@@ -1,6 +1,6 @@
 <div class="container-fluid">
         <a href="#" class="site-logo">
-            <img class="hidden-md-down" src="/img/logo-2-white.png" alt="">
+            <img class="hidden-md-down" src="/themes/startui/img/logo-2-white.png" alt="">
             <img class="hidden-lg-up" src="/img/logo-2-mob.png" alt="">
         </a>
 
