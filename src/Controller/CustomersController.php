@@ -131,8 +131,8 @@ class CustomersController extends AppController
 		if($this->request->is('ajax')) {
 				
 			$this->autoRender=false;
-			$rfidTag = $this->Customers->get($this->request->data["value"]);
-			if ($this->Customers->delete($rfidTag)) {
+			$keyVal = $this->Customers->get($this->request->data["value"]);
+			if ($this->Customers->delete($keyVal)) {
 				$this->response->body("success");
 	    		return $this->response;
 			}else{

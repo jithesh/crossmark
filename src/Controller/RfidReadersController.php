@@ -108,7 +108,8 @@ class RfidReadersController extends AppController
             if ($this->RfidReaders->save($rfidReader)) {
                 $this->Flash->success(__('The rfid reader has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                echo '<script type="text/javascript">window.top.location.href = window.top.location.href;</script>';
+                //return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The rfid reader could not be saved. Please, try again.'));
         }
@@ -141,8 +142,8 @@ class RfidReadersController extends AppController
 		if($this->request->is('ajax')) {
 				
 			$this->autoRender=false;
-			$rfidTag = $this->RfidReaders->get($this->request->data["value"]);
-			if ($this->RfidReaders->delete($rfidTag)) {
+			$keyVal = $this->RfidReaders->get($this->request->data["value"]);
+			if ($this->RfidReaders->delete($keyVal)) {
 				$this->response->body("success");
 	    		return $this->response;
 			}else{

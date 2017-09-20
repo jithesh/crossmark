@@ -66,7 +66,7 @@ class RfidTagsTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->allowEmpty('name');
+            ->notEmpty('name');
 
         $validator
             ->allowEmpty('description');

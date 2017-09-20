@@ -107,7 +107,8 @@ class OperatingStationsController extends AppController
             if ($this->OperatingStations->save($operatingStation)) {
                 $this->Flash->success(__('The operating station has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                echo '<script type="text/javascript">window.top.location.href = window.top.location.href;</script>';
+                //return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The operating station could not be saved. Please, try again.'));
         }
@@ -140,8 +141,8 @@ class OperatingStationsController extends AppController
 		if($this->request->is('ajax')) {
 				
 			$this->autoRender=false;
-			$rfidTag = $this->OperatingStations->get($this->request->data["value"]);
-			if ($this->OperatingStations->delete($rfidTag)) {
+			$keyVal = $this->OperatingStations->get($this->request->data["value"]);
+			if ($this->OperatingStations->delete($keyVal)) {
 				$this->response->body("success");
 	    		return $this->response;
 			}else{

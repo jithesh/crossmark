@@ -2,8 +2,8 @@
 
 <link rel="stylesheet" href="/themes/startui/css/separate/pages/tasks.min.css">
 
-<div class="container-fluid">
-	<header class="section-header">
+<div class="mptl-container-fluid">
+	<!-- <header class="section-header">
 		<div class="tbl">
 			<div class="tbl-row">
 				<div class="tbl-cell">
@@ -15,9 +15,9 @@
 				</div>
 			</div>
 		</div>
-	</header>
+	</header> -->
     <?= $this->Form->create($rfidReader) ?>
-    <section class="card box-typical">
+    <section class="card">
         <div class="card-block">
             <fieldset>
         <?php

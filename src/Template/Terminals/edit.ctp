@@ -2,8 +2,8 @@
 
 <link rel="stylesheet" href="/themes/startui/css/separate/pages/tasks.min.css">
 
-<div class="container-fluid">
-	<header class="section-header">
+<div class="mptl-container-fluid">
+	<!-- <header class="section-header">
 		<div class="tbl">
 			<div class="tbl-row">
 				<div class="tbl-cell">
@@ -15,21 +15,21 @@
 				</div>
 			</div>
 		</div>
-	</header>
-    <?= $this->Form->create($terminal) ?>
-    <section class="card box-typical">
+	</header> -->
+    <?= $this->Form->create($terminal,['id'=>'terminaleditform']) ?>
+    <section class="card">
         <div class="card-block">
             <fieldset>
-        <?php
-            echo $this->Form->control('terminalid',['label'=>'Terminal Id']);
-            echo $this->Form->control('name');
-            echo $this->Form->control('description');
-            echo $this->Form->control('lat',['label'=>'Latitude']);
-            echo $this->Form->control('lon',['label'=>'Longitude']);
-            echo $this->Form->control('operating_station_id', ['options' => $operatingStations, 'empty' => true]);
-        ?>
-    </fieldset>
-    </div>
+        	<?php
+                echo $this->Form->control('terminalid',['label'=>'Terminal Id']);
+   		        echo $this->Form->control('name');
+   		        echo $this->Form->control('description');
+    	        echo $this->Form->control('lat',['label'=>'Latitude']);
+           		echo $this->Form->control('lon',['label'=>'Longitude']);
+            	echo $this->Form->control('operating_station_id', ['options' => $operatingStations, 'empty' => true]);
+        	?>
+    		</fieldset>
+    	</div>
 		<div class="card-footer">
             <?=$this->Html->link(__('Cancel'), ['action' => 'index'], ['escape' => false])?>
     		<?= $this->Form->button(__('Submit'),['title'=>'Update','class'=>'btn pull-right']) ?>
@@ -37,3 +37,9 @@
     </section>
     <?= $this->Form->end() ?>
 </div>
+<!-- <script type="text/javascript">
+
+                // Reload the parent window
+                window.top.location.href = window.top.location.href;
+            
+</script> -->
