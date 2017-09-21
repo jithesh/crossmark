@@ -108,7 +108,7 @@ class TerminalsController extends AppController
 
                 // return $this->redirect($this->referer());
                 // return $this->redirect(['action' => 'index']);
-                echo '<script type="text/javascript">window.top.location.href = window.top.location.href;</script>';
+                echo '<script type="text/javascript">window.top.location.href = "/Terminals"</script>';
                 
             }
             // $this->Flash->error(__('The terminal could not be saved. Please, try again.'));

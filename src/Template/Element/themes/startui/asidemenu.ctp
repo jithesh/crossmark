@@ -32,9 +32,15 @@
             </a>
         </li>
         <li class="brown">
-            <a href="/RfidReaders">
+            <a href="/RfidControllers">
                 <i class="font-icon glyphicon glyphicon-screenshot"></i>
-                <span class="lbl">RFID Reader</span>
+                <span class="lbl">RFID Controllers</span>
+            </a>
+        </li>
+        <li class="brown">
+            <a href="/RfidAntennas">
+                <i class="font-icon glyphicon glyphicon-screenshot"></i>
+                <span class="lbl">RFID Antennas</span>
             </a>
         </li>
         <li class="brown">
