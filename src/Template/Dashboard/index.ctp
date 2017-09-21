@@ -63,7 +63,7 @@
 	                        <article class="statistic-box green">
 	                            <div>
 	                                <div class="number">26</div>
-	                                <div class="caption"><div>Tags processed</div></div>
+	                                <div class="caption"><div>Bags processed</div></div>
 	                                <div class="percent">
 	                                    <div class="arrow up"></div>
 	                                    <p>15%</p>
@@ -75,7 +75,7 @@
 	                        <article class="statistic-box purple">
 	                            <div>
 	                                <div class="number">12</div>
-	                                <div class="caption"><div>Tags exited</div></div>
+	                                <div class="caption"><div>Bags exited</div></div>
 	                                <div class="percent">
 	                                    <div class="arrow down"></div>
 	                                    <p>11%</p>
@@ -87,7 +87,7 @@
 	                        <article class="statistic-box yellow">
 	                            <div>
 	                                <div class="number">104</div>
-	                                <div class="caption"><div>Tags in reclaimed area</div></div>
+	                                <div class="caption"><div>Bags in reclaimed area</div></div>
 	                                <div class="percent">
 	                                    <div class="arrow down"></div>
 	                                    <p>5%</p>
@@ -99,7 +99,7 @@
 	                        <article class="statistic-box red">
 	                            <div>
 	                                <div class="number">29</div>
-	                                <div class="caption"><div>Tags in airport area</div></div>
+	                                <div class="caption"><div>Bags in airport area</div></div>
 	                                <div class="percent">
 	                                    <div class="arrow up"></div>
 	                                    <p>84%</p>
@@ -115,7 +115,7 @@
 	            <div class="col-xl-6 dahsboard-column">
 	                <section class="box-typical box-typical-dashboard panel panel-default scrollable">
 	                    <header class="box-typical-header panel-heading">
-	                        <h3 class="panel-title">Lost and Found</h3>
+	                        <h3 class="panel-title">Bags in Lost and Found</h3>
 	                    </header>
 	                    <div class="box-typical-body panel-body">
 	                        <table class="tbl-typical">
@@ -204,7 +204,7 @@
 	            <div class="col-xl-6 dahsboard-column">
 	                <section class="box-typical box-typical-dashboard panel panel-default scrollable">
 	                    <header class="box-typical-header panel-heading">
-	                        <h3 class="panel-title">Tags not Exited</h3>
+	                        <h3 class="panel-title">Bags not Exited</h3>
 	                    </header>
 	                    <div class="box-typical-body panel-body">
 	                        <table class="tbl-typical">

@@ -1,23 +1,25 @@
+
 <?= $this->element('templateelmnt'); ?>
 
 <link rel="stylesheet" href="/themes/startui/css/separate/pages/tasks.min.css">
+<script src="/themes/startui/js/app.js"></script>
 
-<div class="container-fluid">
-	<header class="section-header">
+<div class="mptl-container-fluid">
+	<!-- <header class="section-header">
 		<div class="tbl">
 			<div class="tbl-row">
 				<div class="tbl-cell">
 					<h3>RFID Reader</h3>
 					<ol class="breadcrumb breadcrumb-simple">
 						<li><a href="/RfidReaders">RFID Reader</a></li>
-						<li>View</li>
+						<li>Edit</li>
 					</ol>
 				</div>
 			</div>
 		</div>
-	</header>
-    <?= $this->Form->create($rfidReader) ?>
-    <section class="card box-typical">
+	</header> -->
+    <?= $this->Form->create($rfidController) ?>
+    <section class="card">
         <div class="card-block">
             <fieldset>
         <?php
@@ -33,7 +35,7 @@
     </div>
 		<div class="card-footer">
             <?=$this->Html->link(__('Cancel'), ['action' => 'index'], ['escape' => false])?>
-    		<?=$this->Html->link(__('Edit'), ['action' => 'edit', $rfidReader['id']],['class'=>'btn btn-primary label-info pull-right'], ['escape' => false])?>
+    		<?= $this->Form->button(__('Submit'),['title'=>'Update','class'=>'btn pull-right']) ?>
     	</div>
     </section>
     <?= $this->Form->end() ?>

@@ -7,22 +7,22 @@ use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
 /**
- * RfidReaders Model
+ * RfidControllers Model
  *
  * @property \App\Model\Table\ZonesTable|\Cake\ORM\Association\BelongsTo $Zones
- * @property |\Cake\ORM\Association\BelongsTo $Customers
+ * @property \App\Model\Table\CustomersTable|\Cake\ORM\Association\BelongsTo $Customers
  *
- * @method \App\Model\Entity\RfidReader get($primaryKey, $options = [])
- * @method \App\Model\Entity\RfidReader newEntity($data = null, array $options = [])
- * @method \App\Model\Entity\RfidReader[] newEntities(array $data, array $options = [])
- * @method \App\Model\Entity\RfidReader|bool save(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\RfidReader patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
- * @method \App\Model\Entity\RfidReader[] patchEntities($entities, array $data, array $options = [])
- * @method \App\Model\Entity\RfidReader findOrCreate($search, callable $callback = null, $options = [])
+ * @method \App\Model\Entity\RfidController get($primaryKey, $options = [])
+ * @method \App\Model\Entity\RfidController newEntity($data = null, array $options = [])
+ * @method \App\Model\Entity\RfidController[] newEntities(array $data, array $options = [])
+ * @method \App\Model\Entity\RfidController|bool save(\Cake\Datasource\EntityInterface $entity, $options = [])
+ * @method \App\Model\Entity\RfidController patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
+ * @method \App\Model\Entity\RfidController[] patchEntities($entities, array $data, array $options = [])
+ * @method \App\Model\Entity\RfidController findOrCreate($search, callable $callback = null, $options = [])
  *
  * @mixin \Cake\ORM\Behavior\TimestampBehavior
  */
-class RfidReadersTable extends Table
+class RfidControllersTable extends Table
 {
 
     /**
@@ -35,7 +35,7 @@ class RfidReadersTable extends Table
     {
         parent::initialize($config);
 
-        $this->setTable('rfid_readers');
+        $this->setTable('rfid_controllers');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
 
