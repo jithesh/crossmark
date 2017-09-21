@@ -3,7 +3,7 @@
 </style>
 <?php
   $myTemplates = [
-  'checkboxContainer' => '<div class="col-lg-3 mptlflft mptlmargintop48"><div class="checkbox">{{content}}{{input}}</div></div>',
+  'checkboxContainer' => '<div class="col-lg-3 mptlflft mptlmargintop49"><div class="checkbox">{{content}}{{input}}</div></div>',
   
  	'nestingLabel' => '{{hidden}}{{input}}<label{{attrs}}>{{text}}</label>',
             

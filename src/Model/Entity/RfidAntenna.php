@@ -4,10 +4,9 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * RfidReader Entity
+ * RfidAntenna Entity
  *
  * @property string $id
- * @property string $zone_id
  * @property string $name
  * @property string $description
  * @property float $lat
@@ -21,10 +20,12 @@ use Cake\ORM\Entity;
  * @property string $type
  * @property string $model
  * @property string $customer_id
+ * @property string $rfidcontroller_id
  *
- * @property \App\Model\Entity\Zone $zone
+ * @property \App\Model\Entity\Customer $customer
+ * @property \App\Model\Entity\RfidController $rfid_controller
  */
-class RfidReader extends Entity
+class RfidAntenna extends Entity
 {
 
     /**

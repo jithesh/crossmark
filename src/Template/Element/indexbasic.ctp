@@ -109,14 +109,24 @@ var $table = $('#table'),
             ].join('');
     }
         
+        
   function detailFormatter(index, row, element){
 	var html = [];
-	html.push('<iframe id="if1" width="100%" height="265" style="visibility:visible" target="_parent" src="/<?php echo $this->request->params['controller'] ?>/edit/'+row.rowid+'"></iframe>');
-        // $.each(row, function (key, value) {
-            // html.push('<p><b>' + key + ':</b> ' + value + '</p>');
-        // });
-        return html.join('');
+	// $("#table").bootstrapTable('togglePagination').bootstrapTable('collapseAllRows').bootstrapTable('togglePagination');
+	// $("#table").bootstrapTable('collapseRow', 1);
+	// $("#table").bootstrapTable('expandRow', 1);
+	// $(".detail-view").hide();
+	
+	$("#table").bootstrapTable('resetView');
+	// $("#table").bootstrapTable('expandRow', 1);
+	
+	// $("tr[data-index='"+index+"']").next().closest(".detail-view").show();
+	
+	$(".detail-view td").load("/<?php echo $this->request->params['controller'] ?>/edit/"+row.rowid);
+    
+    return html.join('');
   }
+	
 	
  $(document).ready(function(){
   

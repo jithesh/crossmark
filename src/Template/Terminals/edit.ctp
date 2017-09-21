@@ -1,7 +1,7 @@
 <?= $this->element('templateelmnt'); ?>
 
 <link rel="stylesheet" href="/themes/startui/css/separate/pages/tasks.min.css">
-
+<script src="/themes/startui/js/app.js"></script>
 <div class="mptl-container-fluid">
 	<!-- <header class="section-header">
 		<div class="tbl">
