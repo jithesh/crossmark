@@ -108,9 +108,9 @@ class RfidControllersController extends AppController
             if ($this->RfidControllers->save($rfidController)) {
                 $this->Flash->success(__('The rfid controller has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                echo '<script type="text/javascript">window.top.location.href = "/RfidControllers"</script>';
             }
-            $this->Flash->error(__('The rfid controller could not be saved. Please, try again.'));
+            // $this->Flash->error(__('The rfid controller could not be saved. Please, try again.'));
         }
         $zones = $this->RfidControllers->Zones->find('list', ['limit' => 200]);
         $customers = $this->RfidControllers->Customers->find('list', ['limit' => 200]);
