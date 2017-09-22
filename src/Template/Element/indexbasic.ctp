@@ -115,13 +115,21 @@ var $table = $('#table'),
 	// $("#table").bootstrapTable('togglePagination').bootstrapTable('collapseAllRows').bootstrapTable('togglePagination');
 	// $("#table").bootstrapTable('collapseRow', 1);
 	// $("#table").bootstrapTable('expandRow', 1);
-	// $(".detail-view").hide();
 	
-	$("#table").bootstrapTable('resetView');
-	// $("#table").bootstrapTable('expandRow', 1);
+	// $(".detail-view").hide();
+	$('.detail-view').each(function(){
+		var indx=$(this).prev().closest("tr").data(index).index;
+		if(indx!=index){
+			$("tr[data-index='"+indx+"']").find(".glyphicon").toggleClass(' glyphicon-minus icon-minus glyphicon-plus icon-plus ');
+        	$(this).remove();
+		}
+		// else{
+			// $("tr[data-index='"+indx+"']").find(".glyphicon").toggleClass(' glyphicon-plus icon-plus glyphicon-minus icon-minus ');
+		// }
+		
+	});
 	
 	// $("tr[data-index='"+index+"']").next().closest(".detail-view").show();
-	
 	$(".detail-view td").load("/<?php echo $this->request->params['controller'] ?>/edit/"+row.rowid);
     
     return html.join('');
@@ -145,10 +153,14 @@ var $table = $('#table'),
         				type: "POST",
         				url: '/<?php echo $this->request->params['controller'] ?>/deleteSelected',
         				data: 'value='+value,
-        				success : function(data) {$table.bootstrapTable('refresh');
+        				success : function(data) {
+        					$table.bootstrapTable('refresh');
+        					
         					if(data!="success"){
     							sweet_alert("BagTrace","Couldn't delete the selected rows.Please try again.");
 								return false;
+    						}else{
+    							sweet_success("BagTrace","Records deleted successfully.");
     						}
     					},
         				error : function(data) {

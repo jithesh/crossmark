@@ -115,6 +115,16 @@ function sweet_confirmdelete(titl,msg, callback_success, callback_cancel) {
 	});
     return d;
 }
+function sweet_success(titl,msg, callback_success, callback_cancel){
+	var d=swal({
+  		title: titl,
+  		text: msg,
+  		type: "success",
+  		width: 600,
+  		padding: 100,
+  		background: '#333333'
+	});
+}
 </script>
 </body>
 
