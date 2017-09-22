@@ -160,7 +160,8 @@ var $table = $('#table'),
     							sweet_alert("BagTrace","Couldn't delete the selected rows.Please try again.");
 								return false;
     						}else{
-    							sweet_success("BagTrace","Records deleted successfully.");
+    							notie.alert(1, 'Records deleted successfully !', 5);
+    							// sweet_success("BagTrace","Records deleted successfully.");
     						}
     					},
         				error : function(data) {
