@@ -13890,6 +13890,89 @@ html {
   transition: all 0.2s ease-in-out;
 }
 /* ==========================================================================
+   STYLE: Theme qa
+   ========================================================================== */
+.theme-qa .side-menu .side-menu-list .lbl {
+  color: #838383;
+}
+.theme-qa .side-menu .side-menu-list a:hover,
+.theme-qa .side-menu .side-menu-list > li > span:hover {
+  background-color: #000027;
+  border-left-color: #e01b59;
+}
+.theme-qa .side-menu .side-menu-list a:hover .lbl,
+.theme-qa .side-menu .side-menu-list > li > span:hover .lbl {
+  color: #e01b59;
+}
+.theme-qa .side-menu .side-menu-list a:hover .font-icon.active:after,
+.theme-qa .side-menu .side-menu-list > li > span:hover .font-icon.active:after,
+.theme-qa .side-menu .side-menu-list a:hover .glyphicon.active:after,
+.theme-qa .side-menu .side-menu-list > li > span:hover .glyphicon.active:after,
+.theme-qa .side-menu .side-menu-list a:hover .fa.active:after,
+.theme-qa .side-menu .side-menu-list > li > span:hover .fa.active:after {
+  border-color: #f4f4f4 !important;
+}
+.theme-qa .side-menu .side-menu-list > li.with-sub > span:before {
+  border-top-color: #bbb;
+}
+.theme-qa .side-menu .side-menu-list > li.with-sub > span:hover:before {
+  border-top-color: #999;
+}
+.theme-qa .side-menu .side-menu-list > li.opened {
+  background: #000027;
+}
+.theme-qa .side-menu .side-menu-list > li.opened .font-icon.active:after,
+.theme-qa .side-menu .side-menu-list > li.opened .glyphicon.active:after,
+.theme-qa .side-menu .side-menu-list > li.opened .fa.active:after {
+  border-color: #f4f4f4;
+}
+.theme-qa .side-menu .side-menu-list > li.opened a,
+.theme-qa .side-menu .side-menu-list > li.opened > span {
+  border-left-color: #e01b59;
+}
+.theme-qa .side-menu .side-menu-list > li.opened a .lbl,
+.theme-qa .side-menu .side-menu-list > li.opened > span .lbl {
+  color: #ffffff;
+}
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub {
+  background-color: #f4f4f4;
+}
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span {
+  border-left-color: transparent;
+}
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover {
+  background-color: #cbcdd0 !important;
+}
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover .font-icon,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover .font-icon,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover .glyphicon,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover .glyphicon,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover .fa,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover .fa {
+  color: #454545;
+}
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover .font-icon.active:after,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover .font-icon.active:after,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover .glyphicon.active:after,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover .glyphicon.active:after,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover .fa.active:after,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover .fa.active:after {
+  border-color: #cbcdd0 !important;
+}
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub a:hover .lbl,
+.theme-qa .side-menu .side-menu-list > li.opened.with-sub > span:hover .lbl {
+  color: #454545;
+}
+.theme-qa .side-menu .side-menu-list .font-icon,
+.theme-qa .side-menu .side-menu-list .glyphicon,
+.theme-qa .side-menu .side-menu-list .fa {
+  color: #e01b59;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* ==========================================================================
    STYLE: Theme Picton Blue
    ========================================================================== */
 .theme-picton-blue .side-menu .side-menu-list a:hover,
