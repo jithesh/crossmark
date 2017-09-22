@@ -12238,7 +12238,17 @@ body {
 }
 .theme-qa .site-header {
   background-color: #5c0931;
-  border-bottom-color: #5c0931;
+  /* IE10 Consumer Preview */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #000027), color-stop(1, #1e245e));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #000027 0%, #1e245e 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: -webkit-gradient(linear, left top, right top, from(#000027), to(#1e245e));
+  background-image: linear-gradient(to right, #000027 0%, #1e245e 100%);
+  border-bottom-color: #000027;
 }
 .theme-qa .site-header .site-header-search.closed {
   background: none;
@@ -12250,7 +12260,7 @@ body {
   color: #00a8ff;
 }
 .theme-qa .site-header .header-alarm.active:after {
-  border-color: #5c0931;
+  border-color: #000027;
   background-color: #fed832;
 }
 .theme-qa .site-header .header-alarm i {
@@ -12680,6 +12690,17 @@ html {
 /* ==========================================================================
    Icon's Colors
    ========================================================================== */
+.side-menu-list > li.qa .font-icon,
+.side-menu-list > li.qa .glyphicon,
+.side-menu-list > li.qa .fa {
+  color: #e01b59;
+}
+.side-menu-list > li.qa.opened a,
+.side-menu-list > li.qa.opened > span,
+.side-menu-list > li.qa.opened.with-sub > span,
+.side-menu-list > li.qa .with-sub > span {
+  border-left-color: #e01b59;
+}
 .side-menu-list > li.brown .font-icon,
 .side-menu-list > li.brown .glyphicon,
 .side-menu-list > li.brown .fa {
