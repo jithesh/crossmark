@@ -12407,6 +12407,14 @@ html {
   min-height: 100%;
 }
 /* ==========================================================================
+   Hamburger
+   ========================================================================== */
+.theme-qa .show-hide-sidebar:hover span,
+.theme-qa .show-hide-sidebar:hover span:before,
+.theme-qa .show-hide-sidebar:hover span:after {
+  background-color: #e01b59;
+}
+/* ==========================================================================
    Menu List
    ========================================================================== */
 .side-menu-list {
