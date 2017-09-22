@@ -77,6 +77,7 @@
 <script src="/themes/startui/js/lib/match-height/jquery.matchHeight.min.js"></script>
 
 <script src="/themes/startui/js/lib/bootstrap-sweetalert/sweetalert.min.js"></script>
+<script src="/themes/startui/js/lib/notie/notie.js"></script>
 <!-- App scripts -->
 
 

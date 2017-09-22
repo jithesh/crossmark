@@ -1,13 +1,20 @@
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/bootstrap-table.min.css"/>
+<link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-table/dragtable.css">
 
+<style>
+	.fixed-table-header{display:none;}/*acoid table header displayed twice*/
+</style>
 <div class="container-fluid">
 	        <div class="row">
+	        	
+	        	
 	            <div class="col-xl-6">
 	                <div class="chart-statistic-box">
 	                    <div class="chart-txt">
 	                        <div class="chart-txt-top">
-	                            <p><span class="unit">$</span><span class="number">1540</span></p>
-	                            <p class="caption">Week income</p>
+	                            <p><span class="number">1540</span></p>
+	                            <p class="caption">Bags</p>
 	                        </div>
 	                        <table class="tbl-data">
 	                            <tr>
@@ -27,16 +34,16 @@
 	                    <div class="chart-container">
 	                        <div class="chart-container-in">
 	                            <div id="chart_div"></div>
-	                            <header class="chart-container-title">Income</header>
+	                            <header class="chart-container-title">Bags</header>
 	                            <div class="chart-container-x">
 	                                <div class="item"></div>
-	                                <div class="item">tue</div>
-	                                <div class="item">wed</div>
-	                                <div class="item">thu</div>
-	                                <div class="item">fri</div>
-	                                <div class="item">sat</div>
-	                                <div class="item">sun</div>
-	                                <div class="item">mon</div>
+	                                <div class="item">Tue</div>
+	                                <div class="item">Wed</div>
+	                                <div class="item">Thu</div>
+	                                <div class="item">Fri</div>
+	                                <div class="item">Sat</div>
+	                                <div class="item">Sun</div>
+	                                <div class="item">Mon</div>
 	                                <div class="item"></div>
 	                            </div>
 	                            <div class="chart-container-y">
@@ -57,6 +64,8 @@
 	                    </div>
 	                </div><!--.chart-statistic-box-->
 	            </div><!--.col-->
+	            
+	            
 	            <div class="col-xl-6">
 	                <div class="row">
 	                    <div class="col-sm-6">
@@ -111,96 +120,52 @@
 	            </div><!--.col-->
 	        </div><!--.row-->
 	
+	
 	        <div class="row">
+	        
 	            <div class="col-xl-6 dahsboard-column">
-	                <section class="box-typical box-typical-dashboard panel panel-default scrollable">
-	                    <header class="box-typical-header panel-heading">
-	                        <h3 class="panel-title">Bags in Lost and Found</h3>
-	                    </header>
-	                    <div class="box-typical-body panel-body">
-	                        <table class="tbl-typical">
-	                            <tr>
-	                                <th><div>Status</div></th>
-	                                <th><div>Clients</div></th>
-	                                <th align="center"><div>Orders#</div></th>
-	                                <th align="center"><div>Date</div></th>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-primary">Paid</span>
-	                                    <span class="label label-success">Active</span>
-	                                </td>
-	                                <td>John Doe</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span> 8:30</td>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-primary">Paid</span>
-	                                    <span class="label label-success">Active</span>
-	                                </td>
-	                                <td>Thomas Bayer</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span> 16:30</td>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-primary">Paid</span>
-	                                    <span class="label label-default">Inactive</span>
-	                                </td>
-	                                <td>Nicolas Karabat</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center"><span class="semibold">Yesterday</span></td>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-default">Unpaid</span>
-	                                    <span class="label label-default">Inactive</span>
-	                                </td>
-	                                <td>Alexandre Pome</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center">23th May</td>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-primary">Paid</span>
-	                                    <span class="label label-success">Active</span>
-	                                </td>
-	                                <td>John Doe</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span> 8:30</td>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-primary">Paid</span>
-	                                    <span class="label label-success">Active</span>
-	                                </td>
-	                                <td>Thomas Bayer</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span> 16:30</td>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-primary">Paid</span>
-	                                    <span class="label label-default">Inactive</span>
-	                                </td>
-	                                <td>Nicolas Karabat</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center"><span class="semibold">Yesterday</span></td>
-	                            </tr>
-	                            <tr>
-	                                <td>
-	                                    <span class="label label-default">Unpaid</span>
-	                                    <span class="label label-default">Inactive</span>
-	                                </td>
-	                                <td>Alexandre Pome</td>
-	                                <td align="center">3435362</td>
-	                                <td class="color-blue-grey" nowrap align="center">23th May</td>
-	                            </tr>
-	                        </table>
-	                    </div><!--.box-typical-body-->
-	                </section><!--.box-typical-dashboard-->
+	                <section class="box-typical">
+   						<div id="toolbar">
+ 							<div class="bootstrap-table-header">
+        						Bags in Lost and Found
+     						</div>
+    					</div>
+   						<table id="table" data-toggle="table"
+   	   						class="table table-striped table-hover"
+       						data-url="/<?php echo $this->request->params['controller'] ?>/ajaxData"
+       						data-query-params="queryParams"
+       						data-toolbar="#toolbar"
+       						data-pagination="false"
+ 				        	data-reorderable-columns="true"
+       						data-search="true"
+       						data-show-refresh="true"
+       						data-show-toggle="true"
+       						data-show-columns="true"
+       						data-show-export="true"
+       						data-detail-view="false"
+       						data-detail-formatter="detailFormatter"
+       						data-minimum-count-columns="2"
+       						data-show-pagination-switch="false"
+       						data-id-field="id"
+       						data-show-footer="false">
+    						<thead>
+    							<tr>
+    								<?php
+                  						for($i=0;$i<count($headers);$i++){
+                  							if(strtolower($headers[$i])=="state"){
+                  								echo "<th data-field='". strtolower($headers[$i]) ."' data-sortable='true' data-formatter='stateFormatter' >" . $headers[$i] . "</th>";
+                  							}else{
+	                  							echo "<th data-field='". strtolower($headers[$i]) ."' data-sortable='true' >" . $headers[$i] . "</th>";
+											}
+                  						}
+        							?>        
+        						</tr>
+    						</thead>
+						</table>
+					</section><!--.box-typical-dashboard-->
 	            </div><!--.col-->
+	            
+	            
 	            <div class="col-xl-6 dahsboard-column">
 	                <section class="box-typical box-typical-dashboard panel panel-default scrollable">
 	                    <header class="box-typical-header panel-heading">
@@ -256,7 +221,19 @@
 	</div>
 
 <?php $this->start('scriptBottom'); ?>
+<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table.js"></script>
+<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-export.min.js"></script>
+<script src="/themes/startui/js/lib/bootstrap-table/tableExport.min.js"></script>
+
+
+<script src="/themes/startui/js/lib/bootstrap-table/bootstrap-table-reorder-columns.min.js"></script>
+<script src="/themes/startui/js/lib/bootstrap-table/jquery.dragtable.js"></script>
 <script>
+
+function stateFormatter(value) {
+    return  value + ' <i class="glyphicon glyphicon-star"></i> ';
+}
+
 		$(document).ready(function() {
 
 			try {
