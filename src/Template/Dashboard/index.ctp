@@ -6,6 +6,10 @@
 	.fixed-table-header{display:none;}/*acoid table header displayed twice*/
 </style>
 <div class="container-fluid">
+	
+	<?php echo $this->Flash->render(); ?>
+		<?php echo $this->Flash->render('auth'); ?>
+		
 	        <div class="row">
 	        	
 	        	

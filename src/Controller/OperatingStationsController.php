@@ -109,8 +109,10 @@ class OperatingStationsController extends AppController
 
                 echo '<script type="text/javascript">window.top.location.href = "/OperatingStations"</script>';
                 //return $this->redirect(['action' => 'index']);
-            }
-            $this->Flash->error(__('The operating station could not be saved. Please, try again.'));
+            }else{
+            	echo '<script type="text/javascript">window.top.location.href = "/OperatingStations"</script>';
+            	$this->Flash->error(__('The operating station could not be saved. Please, try again.'));
+			}
         }
         $customers = $this->OperatingStations->Customers->find('list', ['limit' => 200]);
         $this->set(compact('operatingStation', 'customers'));

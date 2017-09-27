@@ -103,13 +103,17 @@ class TerminalsController extends AppController
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $terminal = $this->Terminals->patchEntity($terminal, $this->request->getData());
+			// $terminal['operating_station_id']="";
             if ($this->Terminals->save($terminal)) {
                 $this->Flash->success(__('The terminal has been saved.'));
-
+return $this->redirect($this->Auth->logout());
                 // return $this->redirect($this->referer());
                 // return $this->redirect(['action' => 'index']);
                 echo '<script type="text/javascript">window.top.location.href = "/Terminals"</script>';
                 
+            }else{
+            	echo '<script type="text/javascript">window.top.location.href = "/Terminals"</script>';
+				$this->Flash->error(__('The terminal could not be saved. Please, try again.'));
             }
             // $this->Flash->error(__('The terminal could not be saved. Please, try again.'));
         }

@@ -87,6 +87,7 @@ class RfidTagsController extends AppController
                 return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The rfid tag could not be saved. Please, try again.'));
+			
         }
         $terminals = $this->RfidTags->Terminals->find('list', ['limit' => 200]);
         $this->set(compact('rfidTag', 'terminals'));
@@ -112,8 +113,10 @@ class RfidTagsController extends AppController
 
                 echo '<script type="text/javascript">window.top.location.href = "/RfidTags"</script>';
                 //return $this->redirect(['action' => 'index']);
-            }
-            // $this->Flash->error(__('The rfid tag could not be saved. Please, try again.'));
+            }else{
+            	echo '<script type="text/javascript">window.top.location.href = "/RfidTags"</script>';
+            	$this->Flash->error(__('The rfid tag could not be saved. Please, try again.'));
+			}
         }
         $terminals = $this->RfidTags->Terminals->find('list', ['limit' => 200]);
         $this->set(compact('rfidTag', 'terminals'));
