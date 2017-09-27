@@ -110,8 +110,10 @@ class RfidAntennasController extends AppController
 
                 echo '<script type="text/javascript">window.top.location.href = "/RfidAntennas"</script>';
                 // return $this->redirect(['action' => 'index']);
-            }
-            // $this->Flash->error(__('The rfid antenna could not be saved. Please, try again.'));
+            }else{
+            	echo '<script type="text/javascript">window.top.location.href = "/RfidAntennas"</script>';
+          	 	$this->Flash->error(__('The rfid antenna could not be saved. Please, try again.'));
+			}
         }
         $customers = $this->RfidAntennas->Customers->find('list', ['limit' => 200]);
         $rfidControllers = $this->RfidAntennas->RfidControllers->find('list', ['limit' => 200]);

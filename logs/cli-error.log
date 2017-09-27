@@ -1,0 +1,20 @@
+2017-09-21 09:45:49 Error: [Cake\Database\Exception] Cannot describe rfid_antenna. It has 0 columns. in /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 99
+Stack Trace:
+#0 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('rfid_antenna', Array)
+#1 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/ORM/Table.php(531): Cake\Database\Schema\CachedCollection->describe('rfid_antenna')
+#2 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/ORM/Table.php(652): Cake\ORM\Table->getSchema()
+#3 /Users/varunprathap/crossmark/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(217): Cake\ORM\Table->getPrimaryKey()
+#4 /Users/varunprathap/crossmark/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /Users/varunprathap/crossmark/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'rfid_antenna', 'RfidAntenna')
+#6 /Users/varunprathap/crossmark/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('RfidAntenna')
+#7 /Users/varunprathap/crossmark/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('RfidAntenna')
+#8 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('RfidAntenna', 0)
+#9 /Users/varunprathap/crossmark/vendor/cakephp/bake/src/Shell/BakeShell.php(258): Cake\Collection\Collection->each(Object(Closure))
+#10 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/Console/Shell.php(458): Bake\Shell\BakeShell->all('rfid_antenna')
+#11 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /Users/varunprathap/crossmark/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /Users/varunprathap/crossmark/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
