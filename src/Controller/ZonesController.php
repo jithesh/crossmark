@@ -108,8 +108,11 @@ class ZonesController extends AppController
 
                 echo '<script type="text/javascript">window.top.location.href = "/Zones"</script>';
                 //return $this->redirect(['action' => 'index']);
+            }else{
+            	echo '<script type="text/javascript">window.top.location.href = "/Zones"</script>';
+            	$this->Flash->error(__('The zone could not be saved. Please, try again.'));
             }
-            $this->Flash->error(__('The zone could not be saved. Please, try again.'));
+            
         }
         $terminals = $this->Zones->Terminals->find('list', ['limit' => 200]);
         $this->set(compact('zone', 'terminals'));
