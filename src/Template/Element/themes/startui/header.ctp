@@ -15,7 +15,7 @@
             <div class="site-header-content-in">
             	
             	<div class="dropdown dropdown-typical">
-	            	<img src="/themes/startui/img/doha-logo.png" alt="" style="height: 40px;margin-left:20px;">
+	            	<img src="/themes/startui/img/doha-logo2.png" alt="" style="height: 40px;margin-left:20px;">
 	            </div>
 	                        
 	                        

@@ -27,7 +27,8 @@ use Cake\ORM\Entity;
  * @property string $customer_id
  *
  * @property \App\Model\Entity\Terminal $terminal
- * @property \App\Model\Entity\User $user
+ * @property \App\Model\Entity\Registrationuser $registrationuser
+ * @property \App\Model\Entity\Customer $customer
  */
 class RfidTag extends Entity
 {

@@ -78,6 +78,7 @@ class RfidControllersController extends AppController
         $rfidController = $this->RfidControllers->newEntity();
         if ($this->request->is('post')) {
             $rfidController = $this->RfidControllers->patchEntity($rfidController, $this->request->getData());
+            $rfidController['customer_id']=$this->loggedinuser['customer_id'];
             if ($this->RfidControllers->save($rfidController)) {
                 $this->Flash->success(__('The rfid controller has been saved.'));
 
@@ -103,6 +104,13 @@ class RfidControllersController extends AppController
         $rfidController = $this->RfidControllers->get($id, [
             'contain' => []
         ]);
+		
+		if($rfidController['customer_id'] != $this->loggedinuser['customer_id'])
+		{
+			 echo '<script type="text/javascript">window.top.location.href = "/RfidControllers"</script>';
+			 $this->Flash->error(__('You are not Authorized.'));
+		}
+
         if ($this->request->is(['patch', 'post', 'put'])) {
             $rfidController = $this->RfidControllers->patchEntity($rfidController, $this->request->getData());
             if ($this->RfidControllers->save($rfidController)) {

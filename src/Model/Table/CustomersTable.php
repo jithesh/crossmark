@@ -9,7 +9,13 @@ use Cake\Validation\Validator;
 /**
  * Customers Model
  *
+ * @property |\Cake\ORM\Association\HasMany $RfidAntennas
+ * @property |\Cake\ORM\Association\HasMany $RfidControllers
+ * @property |\Cake\ORM\Association\HasMany $RfidTags
+ * @property |\Cake\ORM\Association\HasMany $Sites
+ * @property |\Cake\ORM\Association\HasMany $Terminals
  * @property \App\Model\Table\UsersTable|\Cake\ORM\Association\HasMany $Users
+ * @property |\Cake\ORM\Association\HasMany $Zones
  *
  * @method \App\Model\Entity\Customer get($primaryKey, $options = [])
  * @method \App\Model\Entity\Customer newEntity($data = null, array $options = [])
@@ -40,7 +46,25 @@ class CustomersTable extends Table
 
         $this->addBehavior('Timestamp');
 
+        $this->hasMany('RfidAntennas', [
+            'foreignKey' => 'customer_id'
+        ]);
+        $this->hasMany('RfidControllers', [
+            'foreignKey' => 'customer_id'
+        ]);
+        $this->hasMany('RfidTags', [
+            'foreignKey' => 'customer_id'
+        ]);
+        $this->hasMany('Sites', [
+            'foreignKey' => 'customer_id'
+        ]);
+        $this->hasMany('Terminals', [
+            'foreignKey' => 'customer_id'
+        ]);
         $this->hasMany('Users', [
+            'foreignKey' => 'customer_id'
+        ]);
+        $this->hasMany('Zones', [
             'foreignKey' => 'customer_id'
         ]);
     }

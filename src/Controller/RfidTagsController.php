@@ -81,6 +81,7 @@ class RfidTagsController extends AppController
         $rfidTag = $this->RfidTags->newEntity();
         if ($this->request->is('post')) {
             $rfidTag = $this->RfidTags->patchEntity($rfidTag, $this->request->getData());
+            $rfidTag['customer_id']=$this->loggedinuser['customer_id'];
             if ($this->RfidTags->save($rfidTag)) {
                 $this->Flash->success(__('The rfid tag has been saved.'));
 
@@ -106,6 +107,13 @@ class RfidTagsController extends AppController
         $rfidTag = $this->RfidTags->get($id, [
             'contain' => []
         ]);
+		
+		if($rfidTag['customer_id'] != $this->loggedinuser['customer_id'])
+		{
+			 echo '<script type="text/javascript">window.top.location.href = "/RfidTags"</script>';
+			 $this->Flash->error(__('You are not Authorized.'));
+		}
+		
         if ($this->request->is(['patch', 'post', 'put'])) {
             $rfidTag = $this->RfidTags->patchEntity($rfidTag, $this->request->getData());
             if ($this->RfidTags->save($rfidTag)) {

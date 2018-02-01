@@ -22,7 +22,8 @@ use Cake\ORM\Entity;
  * @property string $customer_id
  *
  * @property \App\Model\Entity\Terminal $terminal
- * @property \App\Model\Entity\RfidReader[] $rfid_readers
+ * @property \App\Model\Entity\Customer $customer
+ * @property \App\Model\Entity\RfidController[] $rfid_controllers
  */
 class Zone extends Entity
 {

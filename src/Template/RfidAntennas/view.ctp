@@ -24,6 +24,10 @@
             <th scope="row"><?= __('Id') ?></th>
             <td><?= h($rfidAntenna->id) ?></td>
         </tr>
+         <tr>
+            <th scope="row"><?= __('Antenna Number') ?></th>
+            <td><?= h($rfidAntenna->antenna_no) ?></td>
+        </tr>
         <tr>
             <th scope="row"><?= __('Name') ?></th>
             <td><?= h($rfidAntenna->name) ?></td>
