@@ -21,6 +21,7 @@ use Cake\ORM\Entity;
  * @property string $model
  * @property string $customer_id
  * @property string $rfidcontroller_id
+ * @property string $antenna_no
  *
  * @property \App\Model\Entity\Customer $customer
  * @property \App\Model\Entity\RfidController $rfid_controller

@@ -93,6 +93,9 @@ class RfidAntennasTable extends Table
         $validator
             ->allowEmpty('model');
 
+        $validator
+            ->allowEmpty('antenna_no');
+
         return $validator;
     }
 

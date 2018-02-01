@@ -78,6 +78,7 @@ class RfidAntennasController extends AppController
         $rfidAntenna = $this->RfidAntennas->newEntity();
         if ($this->request->is('post')) {
             $rfidAntenna = $this->RfidAntennas->patchEntity($rfidAntenna, $this->request->getData());
+            $rfidAntenna['customer_id']=$this->loggedinuser['customer_id'];
             if ($this->RfidAntennas->save($rfidAntenna)) {
                 $this->Flash->success(__('The rfid antenna has been saved.'));
 
@@ -103,6 +104,13 @@ class RfidAntennasController extends AppController
         $rfidAntenna = $this->RfidAntennas->get($id, [
             'contain' => []
         ]);
+		
+		if($rfidAntenna['customer_id'] != $this->loggedinuser['customer_id'])
+		{
+			 echo '<script type="text/javascript">window.top.location.href = "/RfidAntennas"</script>';
+			 $this->Flash->error(__('You are not Authorized.'));
+		}
+		
         if ($this->request->is(['patch', 'post', 'put'])) {
             $rfidAntenna = $this->RfidAntennas->patchEntity($rfidAntenna, $this->request->getData());
             if ($this->RfidAntennas->save($rfidAntenna)) {

@@ -35,9 +35,9 @@ class ZonesController extends AppController
      *
      * @return \Cake\Http\Response|void
      */
-    public function index()
+    public function index() 
     {
-        $this->paginate = [
+		$this->paginate = [
             'contain' => ['Terminals']
         ];
         $zones = $this->paginate($this->Zones);
@@ -77,6 +77,12 @@ class ZonesController extends AppController
         $zone = $this->Zones->newEntity();
         if ($this->request->is('post')) {
             $zone = $this->Zones->patchEntity($zone, $this->request->getData());
+            
+            $zone['customer_id']=$this->loggedinuser['customer_id'];
+			$zone['createdby']=$this->loggedinuser['id'];
+			
+			$zone['createdip']=$this->request->clientIp();
+			
             if ($this->Zones->save($zone)) {
                 $this->Flash->success(__('The zone has been saved.'));
 
@@ -101,8 +107,20 @@ class ZonesController extends AppController
         $zone = $this->Zones->get($id, [
             'contain' => []
         ]);
+        
+		if($zone['customer_id'] != $this->loggedinuser['customer_id'])
+		{
+			 echo '<script type="text/javascript">window.top.location.href = "/Zones"</script>';
+			 $this->Flash->error(__('You are not Authorized.'));
+		}
+        
         if ($this->request->is(['patch', 'post', 'put'])) {
             $zone = $this->Zones->patchEntity($zone, $this->request->getData());
+			
+			$zone['modifiedby']=$this->loggedinuser['id'];
+			
+			$zone['modifiedip']=$this->request->clientIp();
+
             if ($this->Zones->save($zone)) {
                 $this->Flash->success(__('The zone has been saved.'));
 

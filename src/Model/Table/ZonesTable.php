@@ -10,8 +10,8 @@ use Cake\Validation\Validator;
  * Zones Model
  *
  * @property \App\Model\Table\TerminalsTable|\Cake\ORM\Association\BelongsTo $Terminals
- * @property |\Cake\ORM\Association\BelongsTo $Customers
- * @property \App\Model\Table\RfidReadersTable|\Cake\ORM\Association\HasMany $RfidReaders
+ * @property \App\Model\Table\CustomersTable|\Cake\ORM\Association\BelongsTo $Customers
+ * @property \App\Model\Table\RfidControllersTable|\Cake\ORM\Association\HasMany $RfidControllers
  *
  * @method \App\Model\Entity\Zone get($primaryKey, $options = [])
  * @method \App\Model\Entity\Zone newEntity($data = null, array $options = [])
@@ -48,7 +48,7 @@ class ZonesTable extends Table
         $this->belongsTo('Customers', [
             'foreignKey' => 'customer_id'
         ]);
-        $this->hasMany('RfidReaders', [
+        $this->hasMany('RfidControllers', [
             'foreignKey' => 'zone_id'
         ]);
     }

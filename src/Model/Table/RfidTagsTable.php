@@ -10,8 +10,8 @@ use Cake\Validation\Validator;
  * RfidTags Model
  *
  * @property \App\Model\Table\TerminalsTable|\Cake\ORM\Association\BelongsTo $Terminals
- * @property \App\Model\Table\UsersTable|\Cake\ORM\Association\BelongsTo $Users
- * @property |\Cake\ORM\Association\BelongsTo $Customers
+ * @property |\Cake\ORM\Association\BelongsTo $Users
+ * @property \App\Model\Table\CustomersTable|\Cake\ORM\Association\BelongsTo $Customers
  *
  * @method \App\Model\Entity\RfidTag get($primaryKey, $options = [])
  * @method \App\Model\Entity\RfidTag newEntity($data = null, array $options = [])
@@ -66,7 +66,7 @@ class RfidTagsTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->notEmpty('name');
+            ->allowEmpty('name');
 
         $validator
             ->allowEmpty('description');
