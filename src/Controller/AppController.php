@@ -101,8 +101,9 @@ class AppController extends Controller
 			
 			$this->set('username', $user['username']);
 			$this->set('userid', $user['id']);   
-			$this->set('dateformat', $user['dateformat']);     
-			
+			$this->set('dateformat', $user['dateformat']);  
+			$this->set('customer_id', $user['customer_id']);   
+			  
 			$this->request->session()->write('sessionuser', $user);
 			$this->loggedinuser=$user;
 			return true;

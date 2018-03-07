@@ -55,7 +55,7 @@ class CustomersTable extends Table
         $this->hasMany('RfidTags', [
             'foreignKey' => 'customer_id'
         ]);
-        $this->hasMany('Sites', [
+        $this->hasMany('OperatingStations', [
             'foreignKey' => 'customer_id'
         ]);
         $this->hasMany('Terminals', [

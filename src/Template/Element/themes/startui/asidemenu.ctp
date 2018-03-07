@@ -7,12 +7,12 @@
                 <span class="lbl">Dashboard</span>
             </a>
         </li>
-        <li class="qa">
+        <!-- <li class="qa">
             <a href="/Map">
                 <i class="font-icon fa fa-map"></i>
                 <span class="lbl">Location</span>
             </a>
-        </li>
+        </li> -->
         <li class="qa">
             <a href="/OperatingStations">
                 <i class="font-icon font-icon-home"></i>
@@ -44,11 +44,21 @@
             </a>
         </li>
         <li class="qa">
-            <a href="/RfidTags">
+            <a href="/RfidTags/add">
                 <i class="font-icon glyphicon glyphicon-tags"></i>
-                <span class="lbl">RFID Tags</span>
+                <span class="lbl">Add RFID Tags</span>
             </a>
         </li>
+        <!-- 
+        <li class="qa with-sub">
+	            <span>
+	                <i class="font-icon glyphicon glyphicon-tags"></i>
+	                <span class="lbl">RfidTags</span>
+	            </span>
+	            <ul>
+	                <li><a href="/RfidTags/add"><span class="lbl">Add RFID Tags</span></a></li>
+	            </ul>
+	        </li> -->
 
     </ul>
 </nav><!--.side-menu-->

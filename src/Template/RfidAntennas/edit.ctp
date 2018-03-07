@@ -23,7 +23,6 @@
         <div class="card-block">
             <fieldset>
         <?php
-            echo $this->Form->control('antenna_no');
             echo $this->Form->control('name');
             echo $this->Form->control('description');
             echo $this->Form->control('lat',['label'=>'Latitude']);
@@ -31,6 +30,7 @@
             echo $this->Form->control('type');
             echo $this->Form->control('model');
 			echo $this->Form->control('rfidcontroller_id', ['options' => $rfidControllers, 'empty' => true]);
+			echo $this->Form->control('zone_id', ['options' => $zones, 'class' => 'select2', 'empty' => true]);
         ?>
     </fieldset>
     </div>

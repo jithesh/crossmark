@@ -12,27 +12,37 @@ use App\Controller\AppController;
  */
 class RfidTagsController extends AppController
 {
+	
 	public function ajaxData()
     {
     	$this->autoRender= False;
-		$query = $this->RfidTags->find('all')->toArray();
+		$query = $this->RfidTags->find('all');
         $data = array();
-        foreach($query as $value){
-        	$temparr=array();
-			$temparr['id']=$value['id'];
-			$temparr['rowid']=$value['id'];
-			$temparr['name']=$value['name'];
-			$temparr['description']=$value['description'];
-			$temparr['activated']=$value['activated'];
-			$temparr['archived']=$value['archived'];
-			$temparr['latitude']=$value['lat'];
-			$temparr['longitude']=$value['lon'];
-			$temparr['type']=$value['type'];
-			$temparr['make']=$value['make'];
-			array_push($data,$temparr);
-		}
+        // foreach($query as $row){
+        	// $temparr=array();
+			// $temparr['id']=$value['id'];
+			// $temparr['rowid']=$value['id'];
+			// $temparr['name']=$value['name'];
+			// $temparr['description']=$value['description'];
+			// $temparr['activated']=$value['activated'];
+			// $temparr['archived']=$value['archived'];
+			// $temparr['latitude']=$value['lat'];
+			// $temparr['longitude']=$value['lon'];
+			// $temparr['type']=$value['type'];
+			// $temparr['make']=$value['make'];
+			// array_push($data,$temparr);
+		// }
 		 
-		echo json_encode($data);		
+		// echo json_encode($data);
+		$resultSet = $query->all();
+
+while ($resultSet->valid()) {
+    $article = $resultSet->current();
+    // ...
+    $resultSet->next();
+}
+		$this->response->type('json');
+		$this->response->body($query->first());	
 	}
     /**
      * Index method
@@ -70,7 +80,34 @@ class RfidTagsController extends AppController
         $this->set(compact('rfidTag', 'terminals'));
         $this->set('_serialize', ['rfidTag']);
     }
+	public function addTags(){
 
+    	if($this->request->is('ajax')) {
+
+			$this->autoRender=false;
+
+			$startrangeval=$this->request->data['startrange'];
+			$endrangeval=$this->request->data['endrange'];
+
+			for( $i=$startrangeval; $i<=$endrangeval; $i++){
+					
+				$rfidTag = $this->RfidTags->newEntity();
+        		$rfidTag = $this->RfidTags->patchEntity($rfidTag, $this->request->data);
+				
+				$rfidTag['serialno']="MPTL00" . $i;
+				
+				
+				$rfidTag['activated']=TRUE;
+				$rfidTag['exited']=FALSE;
+
+           		$this->RfidTags->save($rfidTag);
+			
+			}
+			
+			$this->response->body("success");
+	    	return $this->response;
+		}
+	}
     /**
      * Add method
      *

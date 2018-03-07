@@ -21,24 +21,58 @@
         <div class="card-block">
             <fieldset>
         <?php
-            echo $this->Form->control('name',['templateVars' => ['icon' => '<i class="font-icon fa fa-pencil"></i>']]);
-            echo $this->Form->control('description',['templateVars' => ['icon' => '<i class="font-icon fa fa-info-circle"></i>']]);
-            echo $this->Form->control('lat');
-            echo $this->Form->control('lon');
-            echo $this->Form->control('make');
-            echo $this->Form->control('type');
-			echo $this->Form->control('activated');
-			echo $this->Form->control('archived');
-            echo $this->Form->control('terminal_id', ['options' => $terminals, 'empty' => true]);
+            // echo $this->Form->control('name',['templateVars' => ['icon' => '<i class="font-icon fa fa-pencil"></i>']]);
+            // echo $this->Form->control('description',['templateVars' => ['icon' => '<i class="font-icon fa fa-info-circle"></i>']]);
+            // echo $this->Form->control('lat');
+            // echo $this->Form->control('lon');
+            
+            echo $this->Form->control('startrange');
+            echo $this->Form->control('endrange');
+			
+			echo $this->Form->control('activated',['checked'=>true,'disabled'=>true]);
+			echo $this->Form->control('exited',['disabled'=>true]);
+			
             
         ?>
     </fieldset>
     </div>
 		<div class="card-footer">
             <?=$this->Html->link(__('Cancel'), ['action' => 'index'], ['escape' => false])?>
-    		<?= $this->Form->button(__('Submit'),['title'=>'Save','class'=>'btn pull-right']) ?>
+    		<!-- <?= $this->Form->button(__('Submit'),['title'=>'Save','class'=>'btn pull-right']) ?> -->
+    		<input type="button" id="addtagsbtn"  value="Add Tags" class="pull-right btn btn-primary"  onclick="return addTags()" />
     	</div>
     </section>
     <?= $this->Form->end() ?>
 </div>
 
+
+<?php $this->start('scriptBottom'); ?>
+<script>
+
+function addTags(){
+
+		var startrange = $('#startrange').val();
+		var endrange = $('#endrange').val();
+
+	if(startrange!="" && startrange!=null && endrange!="" && endrange!=null){
+		$.ajax({
+        	type: "POST",
+        	url: '/RfidTags/addTags',
+        	data: 'startrange='+startrange+'&endrange='+endrange,
+        	success : function(data) {
+          		// window.location='/employees';  
+          		alert("Success.");
+            	return false;
+    		},
+        	error : function(data) {//console.log(data);
+            	alert("Error while adding Rfid Tags.");
+            	return false;
+        	}
+    	});
+   }else{
+   	alert("Please enter start / end ranges.");
+   }
+  }
+
+</script>
+ <?php $this->end(); ?>

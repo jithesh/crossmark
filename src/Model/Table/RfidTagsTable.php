@@ -9,9 +9,11 @@ use Cake\Validation\Validator;
 /**
  * RfidTags Model
  *
- * @property \App\Model\Table\TerminalsTable|\Cake\ORM\Association\BelongsTo $Terminals
- * @property |\Cake\ORM\Association\BelongsTo $Users
+ * @property |\Cake\ORM\Association\BelongsTo $Firstdectectedantennas
+ * @property |\Cake\ORM\Association\BelongsTo $Lastdectectedantennas
+ * @property |\Cake\ORM\Association\BelongsTo $Registringantennas
  * @property \App\Model\Table\CustomersTable|\Cake\ORM\Association\BelongsTo $Customers
+ * @property \App\Model\Table\TerminalsTable|\Cake\ORM\Association\BelongsTo $Terminals
  *
  * @method \App\Model\Entity\RfidTag get($primaryKey, $options = [])
  * @method \App\Model\Entity\RfidTag newEntity($data = null, array $options = [])
@@ -42,14 +44,20 @@ class RfidTagsTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->belongsTo('Terminals', [
-            'foreignKey' => 'terminal_id'
-        ]);
-        $this->belongsTo('Users', [
-            'foreignKey' => 'registrationuser_id'
-        ]);
+        // $this->belongsTo('Firstdectectedantennas', [
+            // 'foreignKey' => 'firstdectectedantenna_id'
+        // ]);
+        // $this->belongsTo('Lastdectectedantennas', [
+            // 'foreignKey' => 'lastdectectedantenna_id'
+        // ]);
+        // $this->belongsTo('Registringantennas', [
+            // 'foreignKey' => 'registringantenna_id'
+        // ]);
         $this->belongsTo('Customers', [
             'foreignKey' => 'customer_id'
+        ]);
+        $this->belongsTo('Terminals', [
+            'foreignKey' => 'terminal_id'
         ]);
     }
 
@@ -66,10 +74,30 @@ class RfidTagsTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->allowEmpty('name');
+            ->allowEmpty('serialno');
 
         $validator
-            ->allowEmpty('description');
+            ->allowEmpty('tagtype');
+
+        $validator
+            ->dateTime('firstdetectedtime')
+            ->allowEmpty('firstdetectedtime');
+
+        $validator
+            ->dateTime('lastdetectedtime')
+            ->allowEmpty('lastdetectedtime');
+
+        $validator
+            ->boolean('activated')
+            ->allowEmpty('activated');
+
+        $validator
+            ->boolean('exited')
+            ->allowEmpty('exited');
+
+        $validator
+            ->dateTime('registrationtime')
+            ->allowEmpty('registrationtime');
 
         $validator
             ->numeric('lat')
@@ -92,22 +120,7 @@ class RfidTagsTable extends Table
             ->allowEmpty('modiifedip');
 
         $validator
-            ->allowEmpty('make');
-
-        $validator
-            ->allowEmpty('type');
-
-        $validator
-            ->boolean('activated')
-            ->allowEmpty('activated');
-
-        $validator
-            ->boolean('archived')
-            ->allowEmpty('archived');
-
-        $validator
-            ->dateTime('registrationtime')
-            ->allowEmpty('registrationtime');
+            ->allowEmpty('rowdata');
 
         return $validator;
     }
@@ -121,9 +134,11 @@ class RfidTagsTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->existsIn(['terminal_id'], 'Terminals'));
-        $rules->add($rules->existsIn(['registrationuser_id'], 'Users'));
+        // $rules->add($rules->existsIn(['firstdectectedantenna_id'], 'Firstdectectedantennas'));
+        // $rules->add($rules->existsIn(['lastdectectedantenna_id'], 'Lastdectectedantennas'));
+        // $rules->add($rules->existsIn(['registringantenna_id'], 'Registringantennas'));
         $rules->add($rules->existsIn(['customer_id'], 'Customers'));
+        $rules->add($rules->existsIn(['terminal_id'], 'Terminals'));
 
         return $rules;
     }
