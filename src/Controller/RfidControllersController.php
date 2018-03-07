@@ -15,7 +15,7 @@ class RfidControllersController extends AppController
 	public function ajaxData()
     {
     	$this->autoRender= False;
-		$query = $this->RfidControllers->find('all')->toArray();
+		$query = $this->RfidControllers->find('all')->where(['customer_id' => $this->loggedinuser['customer_id']])->toArray();
         $data = array();
         foreach($query as $value){
         	$temparr=array();
@@ -30,7 +30,10 @@ class RfidControllersController extends AppController
 			array_push($data,$temparr);
 		}
 		 
-		echo json_encode($data);		
+		// echo json_encode($data);		
+		
+		$this->response->type('json');
+		$this->response->body(json_encode($data));	
 	}
     /**
      * Index method

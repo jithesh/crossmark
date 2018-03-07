@@ -7,9 +7,18 @@ use Cake\ORM\Entity;
  * RfidTag Entity
  *
  * @property string $id
+ * @property string $serialno
+ * @property string $tagtype
+ * @property string $firstdectectedantenna_id
+ * @property \Cake\I18n\FrozenTime $firstdetectedtime
+ * @property string $lastdectectedantenna_id
+ * @property \Cake\I18n\FrozenTime $lastdetectedtime
+ * @property bool $activated
+ * @property bool $exited
+ * @property \Cake\I18n\FrozenTime $registrationtime
+ * @property string $registringantenna_id
+ * @property string $customer_id
  * @property string $terminal_id
- * @property string $name
- * @property string $description
  * @property float $lat
  * @property float $lon
  * @property \Cake\I18n\FrozenTime $created
@@ -18,16 +27,10 @@ use Cake\ORM\Entity;
  * @property string $modifiedby
  * @property string $createdip
  * @property string $modiifedip
- * @property string $make
- * @property string $type
- * @property bool $activated
- * @property bool $archived
- * @property \Cake\I18n\FrozenTime $registrationtime
- * @property string $registrationuser_id
- * @property string $customer_id
+ * @property string $rowdata
  *
  * @property \App\Model\Entity\Terminal $terminal
- * @property \App\Model\Entity\Registrationuser $registrationuser
+ * @property \App\Model\Entity\User $user
  * @property \App\Model\Entity\Customer $customer
  */
 class RfidTag extends Entity

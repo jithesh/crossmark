@@ -15,7 +15,7 @@ class OperatingStationsController extends AppController
 	public function ajaxData()
     {
     	$this->autoRender= False;
-		$query = $this->OperatingStations->find('all')->toArray();
+		$query = $this->OperatingStations->find('all')->where(['customer_id' => $this->loggedinuser['customer_id']])->toArray();
         $data = array();
         foreach($query as $value){
         	$temparr=array();
@@ -29,7 +29,10 @@ class OperatingStationsController extends AppController
 			array_push($data,$temparr);
 		}
 		 
-		echo json_encode($data);		
+		// echo json_encode($data);
+		
+		$this->response->type('json');
+		$this->response->body(json_encode($data));
 	}
     /**
      * Index method
@@ -38,6 +41,9 @@ class OperatingStationsController extends AppController
      */
     public function index()
     {
+    	
+		// echo json_encode($this->loggedinuser['customer_id']);
+		
         $this->paginate = [
             'contain' => ['Customers']
         ];
@@ -78,6 +84,7 @@ class OperatingStationsController extends AppController
         $operatingStation = $this->OperatingStations->newEntity();
         if ($this->request->is('post')) {
             $operatingStation = $this->OperatingStations->patchEntity($operatingStation, $this->request->getData());
+			$operatingStation['customer_id']=$this->loggedinuser['customer_id'];
             if ($this->OperatingStations->save($operatingStation)) {
                 $this->Flash->success(__('The operating station has been saved.'));
 

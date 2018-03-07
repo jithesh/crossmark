@@ -15,7 +15,7 @@ class RfidAntennasController extends AppController
 	public function ajaxData()
     {
     	$this->autoRender= False;
-		$query = $this->RfidAntennas->find('all')->toArray();
+		$query = $this->RfidAntennas->find('all')->where(['customer_id' => $this->loggedinuser['customer_id']])->toArray();
         $data = array();
         foreach($query as $value){
         	$temparr=array();
@@ -30,7 +30,10 @@ class RfidAntennasController extends AppController
 			array_push($data,$temparr);
 		}
 		 
-		echo json_encode($data);		
+		// echo json_encode($data);
+		
+		$this->response->type('json');
+		$this->response->body(json_encode($data));
 	}
     /**
      * Index method
@@ -88,7 +91,11 @@ class RfidAntennasController extends AppController
         }
         $customers = $this->RfidAntennas->Customers->find('list', ['limit' => 200]);
         $rfidControllers = $this->RfidAntennas->RfidControllers->find('list', ['limit' => 200]);
-        $this->set(compact('rfidAntenna', 'customers', 'rfidControllers'));
+		
+		
+		$zones = $this->RfidAntennas->RfidControllers->find('list', ['limit' => 200]);
+		// $zones = $this->RfidAntennas->Zones->find('list', ['limit' => 200]);
+        $this->set(compact('rfidAntenna', 'customers', 'rfidControllers','zones'));
         $this->set('_serialize', ['rfidAntenna']);
     }
 
@@ -125,7 +132,10 @@ class RfidAntennasController extends AppController
         }
         $customers = $this->RfidAntennas->Customers->find('list', ['limit' => 200]);
         $rfidControllers = $this->RfidAntennas->RfidControllers->find('list', ['limit' => 200]);
-        $this->set(compact('rfidAntenna', 'customers', 'rfidControllers'));
+        
+        $zones = $this->RfidAntennas->RfidControllers->find('list', ['limit' => 200]);
+		// $zones = $this->RfidAntennas->Zones->find('list', ['limit' => 200]);
+        $this->set(compact('rfidAntenna', 'customers', 'rfidControllers','zones'));
         $this->set('_serialize', ['rfidAntenna']);
     }
 
@@ -147,5 +157,21 @@ class RfidAntennasController extends AppController
         }
 
         return $this->redirect(['action' => 'index']);
+  
     }
+	public function deleteSelected(){
+    	
+		if($this->request->is('ajax')) {
+				
+			$this->autoRender=false;
+			$keyVal = $this->RfidAntennas->get($this->request->data["value"]);
+			if ($this->RfidAntennas->delete($keyVal)) {
+				$this->response->body("success");
+	    		return $this->response;
+			}else{
+				$this->response->body("error");
+	    		return $this->response;
+			}
+		}			
+	}
 }

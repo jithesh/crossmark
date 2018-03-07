@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap/bootstrap.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/separate/vendor/select2.min.css"/>
     <link rel="stylesheet" href="/themes/startui/css/lib/bootstrap-sweetalert/sweetalert.css"/>
+    <link rel="stylesheet" href="/themes/startui/css/separate/vendor/pnotify.min.css"/>
 
 	<!-- App styles -->
     <link href='/themes/startui/css/main.css' rel='stylesheet' type='text/css'>
@@ -78,6 +79,7 @@
 
 <script src="/themes/startui/js/lib/bootstrap-sweetalert/sweetalert.min.js"></script>
 <script src="/themes/startui/js/lib/notie/notie.js"></script>
+<script src="/themes/startui/js/lib/pnotify/pnotify.js"></script>
 <!-- App scripts -->
 
 
@@ -125,6 +127,15 @@ function sweet_success(titl,msg, callback_success, callback_cancel){
   		padding: 100,
   		background: '#333333'
 	});
+}
+function psnotify(titl,msg){
+	new PNotify({
+            title: titl,
+            text: msg,
+            type: 'success',
+            icon: 'font-icon font-icon-check-circle',
+            addclass: 'alert-with-icon'
+        });
 }
 </script>
 </body>

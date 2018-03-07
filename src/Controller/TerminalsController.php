@@ -15,7 +15,7 @@ class TerminalsController extends AppController
 	public function ajaxData()
     {
     	$this->autoRender= False;
-		$query = $this->Terminals->find('all')->toArray();
+		$query = $this->Terminals->find('all')->where(['customer_id' => $this->loggedinuser['customer_id']])->toArray();
         $data = array();
         foreach($query as $value){
         	$temparr=array();
@@ -28,7 +28,10 @@ class TerminalsController extends AppController
 			array_push($data,$temparr);
 		}
 		 
-		echo json_encode($data);		
+		// echo json_encode($data);
+		
+		$this->response->type('json');
+		$this->response->body(json_encode($data));		
 	}
     /**
      * Index method
@@ -77,6 +80,7 @@ class TerminalsController extends AppController
         $terminal = $this->Terminals->newEntity();
         if ($this->request->is('post')) {
             $terminal = $this->Terminals->patchEntity($terminal, $this->request->getData());
+			$terminal['customer_id']=$this->loggedinuser['customer_id'];
             if ($this->Terminals->save($terminal)) {
                 $this->Flash->success(__('The terminal has been saved.'));
 
